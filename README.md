@@ -5,7 +5,11 @@ This is the game dev repo for our coffee ghost delivery game!
 
 By Hai Li, Ethan Choe, Jake Henson 
 
-## Ideas 
+## Overview
+
+This is a game where players will work together as two ghosts in a coffee shop, and must make/deliver coffee to their customers. 
+
+Because the players are ghosts, they will have the advantages of being ghosts, but also the disadvatages. Players can walk through walls/counters, but coffee cannot! So if a ghost spills the coffee, they have to go make it again!! 
 
 ## Brainstorming
 ### Inspirations
