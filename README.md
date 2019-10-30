@@ -52,3 +52,5 @@ By Hai Li, Ethan Choe, Jake Henson, Colin Soguero
  * haunting function - long press, when pressed ghost haunts -> a repair meter will appear and will go down after a certain time of haunting 
  *CONTROLLER: probably a a controller not keyboard, too many functions for keyboard - might get crowded
  
+ Schedule + Core values: https://docs.google.com/document/d/1Wn5cHNnlkw_rQgnP4Xro0Bdj8sZR1zMKozzrnpinn2g/edit?usp=sharing
+ 
