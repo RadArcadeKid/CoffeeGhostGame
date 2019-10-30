@@ -47,3 +47,6 @@ By Hai Li, Ethan Choe, Jake Henson
     
 ### 10/30
  * would the characters be able to bump into eachother in the ghosting phase? i.e being able to pass through a solid character if one was in a transparent phase, but if both are in transparent phase they will bump into eachother. 
+ * haunting function - long press, when pressed ghost haunts -> a repair meter will appear and will go down after a certain time of haunting 
+ *CONTROLLER: probably a a controller not keyboard, too many functions for keyboard - might get crowded
+ 
