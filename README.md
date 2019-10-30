@@ -44,3 +44,6 @@ By Hai Li, Ethan Choe, Jake Henson
   * DO NOT want washing dishes!!!(fourth player rotate joystick to wash dishes)
   * Want more chill than overcooked
     * Keep x number of customers happy. Bonus in time limit?
+    
+### 10/30
+ * would the characters be able to bump into eachother in the ghosting phase? i.e being able to pass through a solid character if one was in a transparent phase, but if both are in transparent phase they will bump into eachother. 
