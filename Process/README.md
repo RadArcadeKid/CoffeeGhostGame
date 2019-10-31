@@ -55,13 +55,13 @@
  - Co-op
 ## Core Mechanics: 
  - Going through walls
-   *Player can pass through walls/tables but the coffee they must deliver cannot
-   *They must go back and get another cup if they spill one
+   * Player can pass through walls/tables but the coffee they must deliver cannot
+   * They must go back and get another cup if they spill one
 - Possessing appliances
-   *Machines break and players must possess them(long button press?) to repair them
+   * Machines break and players must possess them(long button press?) to repair them
 - Time management
-  *Players must multitask and strategize to keep as many customers as happy as possible. Customers have a meter that  determines *how long before they become angry
+  * Players must multitask and strategize to keep as many customers as happy as possible. Customers have a meter that  determines *how long before they become angry
 - Multistep recipes
-  *Players have to move from station to station in order to produce the coffee(think overcooked)
+  * Players have to move from station to station in order to produce the coffee(think overcooked)
 
  
