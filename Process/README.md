@@ -5,7 +5,7 @@
 ### Inspirations
   * Overcooked, Cooking Mama
 ### Basic Mechanics
-  *Player can go through walls, Coffee can't
+  * Player can go through walls, Coffee can't
   * Co-op?
   * Cook times
     * Pour-over, French Press, Espresso, Aero-press
