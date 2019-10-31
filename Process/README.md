@@ -48,12 +48,12 @@
  
  Schedule + Core values: https://docs.google.com/document/d/1Wn5cHNnlkw_rQgnP4Xro0Bdj8sZR1zMKozzrnpinn2g/edit?usp=sharing
  
- ###CORE MECHANICS 
-##Core Values: 
+### CORE MECHANICS 
+## Core Values: 
  *Chaos 
  *Chill Coffee shop atmosphere
  *Co-op
-##Core Mechanics: 
+## Core Mechanics: 
  *Going through walls
    *Player can pass through walls/tables but the coffee they must deliver cannot
    *They must go back and get another cup if they spill one
