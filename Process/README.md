@@ -50,18 +50,18 @@
  
 ### CORE MECHANICS 
 ## Core Values: 
- *Chaos 
- *Chill Coffee shop atmosphere
- *Co-op
+ - Chaos 
+ - Chill Coffee shop atmosphere
+ - Co-op
 ## Core Mechanics: 
- *Going through walls
+ - Going through walls
    *Player can pass through walls/tables but the coffee they must deliver cannot
    *They must go back and get another cup if they spill one
-*Possessing appliances
+- Possessing appliances
    *Machines break and players must possess them(long button press?) to repair them
-*Time management
+- Time management
   *Players must multitask and strategize to keep as many customers as happy as possible. Customers have a meter that  determines *how long before they become angry
-*Multistep recipes
+- Multistep recipes
   *Players have to move from station to station in order to produce the coffee(think overcooked)
 
  
