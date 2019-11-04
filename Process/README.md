@@ -12,9 +12,10 @@
   *  Move through walls (decisively-corporeal when holding coffee)
   
 #### 2 Main Traits 
-  *  Happy, chill - (they like their jobs 
   *  Hard workers - (died, but still need money) 
-  *  Opposite personalities (ones happy, the other is sad/angry) 
+  *  Opposite personalities
+      * Misty is happy, chill, and content 
+      * Blue is bipolar, lashes out, but is methodical  
 
 #### Backstory 
 Our coffee ghosts worked at a coffee shop (Roasted Soul) together which burned down. They must work together to make coffee in the afterlife. 
