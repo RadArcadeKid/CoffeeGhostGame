@@ -24,7 +24,7 @@ Our coffee ghosts work at a coffee shop (known as *Roasted Soul*) together which
 * Misty - the more level-headed one, smart, and can fix various coffee-making appliances, but she's a terrible cook. Usually always smiling. Can't make coffee, but exceptional at customer service and repairs. Much better at dealing with people and staying postiive. 
 
 
-Blue and Misty, (real names unknown) before they became ghosts, were friends who bought a dingy coffee shop, which burned down with them inside it. But, even in death, their dream of opening a coffee shop lives on! Now, they decided to fulfil their purpose in the afterlife, each playing to their own unique skills and working together to serve customers. This coffee shop is a temporary purgatory - their customers are newly dead people who can chill out and drink coffee while they wait for the afterlife. The duo is quite happy, and well work together as a pair, with one being the more tempremental hot-headed one, the other being the more calm and friendly.
+Blue and Misty, (real names unknown) before they became ghosts, were friends who bought a dingy coffee shop, which burned down with them inside it. But, even in death, their dream of opening a coffee shop lives on! Now, they decided to fulfil their purpose in the afterlife, each playing to their own unique skills and working together to serve customers. This coffee shop is a temporary purgatory - their customers are newly dead people who can chill out and drink coffee while they wait for the afterlife. The duo is quite happy, and well work together as a pair, with one (Blue) being the more tempremental hot-headed one, the other (Misty) being the more calm and friendly.
 
 
 ---
