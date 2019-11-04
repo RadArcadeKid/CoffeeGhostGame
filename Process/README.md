@@ -27,14 +27,14 @@ Even in death, their dream as friends was to open a coffee shop together. But wh
 
 
 
-### 10/30
+## 10/30
  * would the characters be able to bump into eachother in the ghosting phase? i.e being able to pass through a solid character if one was in a transparent phase, but if both are in transparent phase they will bump into eachother. 
  * haunting function - long press, when pressed ghost haunts -> a repair meter will appear and will go down after a certain time of haunting 
  *CONTROLLER: probably a a controller not keyboard, too many functions for keyboard - might get crowded
  * the game has to be appropriately hard so that we can make sure that the players spill coffee every once in a while. 
  
  
-### 10/28
+## 10/28
   * Co-op
     * Green and blue ghost either cook or deliver. The delivery ghost is the only one that can possess and fix the machines. The cooking ghost can only control temperature, boil roasts to a specific temperature and keep the freezer/fridge. 
       * pasteries are a stretch goal.
