@@ -52,10 +52,9 @@ Even in death, their dream as friends was to open a coffee shop together. But wh
 --- 
 
 
-## Ideas 
+## Initial Ideas 
 
-## Brainstorming
-### Inspirations
+### Brainstorming/Inspirations
   * Overcooked, Cooking Mama
 ### Basic Mechanics
   * Player can go through walls, Coffee can't
