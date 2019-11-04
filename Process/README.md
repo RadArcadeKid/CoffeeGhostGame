@@ -18,13 +18,13 @@
       * Blue is bipolar, lashes out, but is methodical  
 
 #### Backstory 
-Our coffee ghosts work at a coffee shop (known as *Roasted Soul*) together which burned down. They must work together to make coffee in the afterlife. 
+Our coffee ghosts work at a coffee shop (known as *Roasted Soul*) together which burned down. They must work together to make coffee in the afterlife for the newly dead! 
 * Blue - this bipolar ghost must get angry/sad before he can heatup/cool down machines (because they can possess). A great cook but hates dealing with people. Very introverted, isn't great at expressing himself without outbursting, coffee is the only thing that can calm him down. *(Maybe he'll upset a customer if he goes through them?)* 
 
 * Misty - the more level-headed one, smart, and can fix various coffee-making appliances, but she's a terrible cook. Usually always smiling. Can't make coffee, but exceptional at customer service and repairs. Much better at dealing with people and staying postiive. 
 
 
-Even in death, their dream as friends was to open a coffee shop together. But while they were living, they bought a dingy coffee shop which burned down!! Now, they decided to fulfil their dream in the afterlife, each playing to their own unique skills and working together to serve customers. They're quite happy and well work together as a pair. This coffee shop is a temporary purgatory - their customers are newly dead people who can chill out and drink coffee while they wait for the afterlife. 
+Blue and Misty, (real names unknown) before they became ghosts, were friends who bought a dingy coffee shop, which burned down with them inside it. But, even in death, their dream of opening a coffee shop lives on! Now, they decided to fulfil their purpose in the afterlife, each playing to their own unique skills and working together to serve customers. This coffee shop is a temporary purgatory - their customers are newly dead people who can chill out and drink coffee while they wait for the afterlife. The duo is quite happy, and well work together as a pair, with one being the more tempremental hot-headed one, the other being the more calm and friendly.
 
 
 ---
