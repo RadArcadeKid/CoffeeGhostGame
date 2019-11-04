@@ -26,15 +26,19 @@ Our coffee ghosts worked at a coffee shop (Roasted Soul) together which burned d
 Even in death, their dream as friends was to open a coffee shop together. But while they were living, they bought a dingy coffee shop which fell down on them!! Now, they decided to fulfil their dream in the afterlife, each playing to their own unique skills. They're quite happy and work together as a pair. This coffee shop is a temporary purgatory - they're serving coffee to newly dead people (customers) so they can chill out and drink coffee while they wait for the afterlife. 
 
 
+---
 
 ## 10/30
+### In-depth mechanics ideas 
  * would the characters be able to bump into eachother in the ghosting phase? i.e being able to pass through a solid character if one was in a transparent phase, but if both are in transparent phase they will bump into eachother. 
  * haunting function - long press, when pressed ghost haunts -> a repair meter will appear and will go down after a certain time of haunting 
  *CONTROLLER: probably a a controller not keyboard, too many functions for keyboard - might get crowded
  * the game has to be appropriately hard so that we can make sure that the players spill coffee every once in a while. 
  
- 
+---
+
 ## 10/28
+### Core mechanics ideas 
   * Co-op
     * Green and blue ghost either cook or deliver. The delivery ghost is the only one that can possess and fix the machines. The cooking ghost can only control temperature, boil roasts to a specific temperature and keep the freezer/fridge. 
       * pasteries are a stretch goal.
