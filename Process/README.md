@@ -1,3 +1,33 @@
+## 11/4/19
+
+### Character Discussion
+
+#### Physical Traits of our Characters
+ 2 Ghosts -- **Blue & Misty** 
+  *  Their own unique Color (one green, one blue?)
+  *  No legs - 2 arms
+  *  Round, simplistic design
+  *  Expressive Faces (faces will change based on what's happening) 
+  *  Wear bowties/uniform (one can be wearing apron, the other a bowtie?) 
+  *  Move through walls (decisively-corporeal when holding coffee)
+  
+#### 2 Main Traits 
+  *  Happy, chill - (they like their jobs 
+  *  Hard workers - (died, but still need money) 
+  *  Opposite personalities (ones happy, the other is sad/angry) 
+
+#### Backstory 
+Our coffee ghosts worked at a coffee shop (Roasted Soul) together which burned down. They must work together to make coffee in the afterlife. 
+* Blue - this bipolar ghost must get angry/sad before he can heatup/cool down machines (because they can possess). A great cook but hates dealing with people. Very introverted, isn't great at expressing himself without outbursting, coffee is the only thing that can calm him down. 
+* Misty - the more level-headed one, smart, and can fix various coffee-making appliances, but she's a terrible cook. Can't make coffee, exceptional at customer service. Much better at dealing with people and staying postiive. 
+
+
+Even in death, their dream as friends was to open a coffee shop together. But while they were living, they bought a dingy coffee shop which fell down on them!! Now, they decided to fulfil their dream in the afterlife, each playing to their own unique skills. They're quite happy and work together as a pair. This coffee shop is a temporary purgatory - they're serving coffee to newly dead people (customers) so they can chill out and drink coffee while they wait for the afterlife. 
+
+
+
+
+
 
 ## Ideas 
 
