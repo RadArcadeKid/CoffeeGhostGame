@@ -18,6 +18,10 @@
 * Ethan - 
 * Colin - 
 
+### Our Whiteboarded Features/EPIC scoping chart: 
+Note that 1 denotes highest priority, 2 denotes neccessary but later features, 3 are stretch-goals 
+![Chart Diagram](image0.jpg)
+
 ---
 
 ## 11/4/19
