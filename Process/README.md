@@ -17,7 +17,7 @@
 
 ### Our Whiteboarded Features/Epic scoping chart: 
 Note that 1 denotes highest priority, 2 denotes neccessary but later features, 3 are stretch-goals 
-The three epics? if that's what they're called are **Player, Cafe** and **Assets**, and are boxes in 
+The three epics are **Player, Cafe** and **Assets** and are boxed in 
 ![Chart Diagram](image0.jpg)
 
 ---
