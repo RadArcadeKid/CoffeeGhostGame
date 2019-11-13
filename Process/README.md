@@ -1,3 +1,9 @@
+## 11/13/19
+
+Attempted to deal with the crazy github repo and pull requests. Unsuccessful...
+
+--- 
+
 ## 11/12/19
 
 ### Gantt Chart + Organization
