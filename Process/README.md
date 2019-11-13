@@ -13,7 +13,7 @@
 * Beyond that, I'm not sure we'll be using anything super out of the ordinary for files... 
 
 #### Who will be assigned each specific task?
-* Jake - Basic Asset Design, Basic Texutring, Making sure models get imported to Unity 
+* Jake - Basic Asset Design, Basic Texutring, Making sure models get imported to Unity properly for right now 
 * Hai - 
 * Ethan - 
 * Colin - 
