@@ -1,3 +1,22 @@
+## 11/12/19
+
+### Gantt Chart + Organization
+[Link to our Gantt chart](https://backend.agantty.com/sharing/66e8447066d696076308c4d3f3d854db)
+
+Questions to Answer: 
+What types of libraries might you need?
+* It would likely be best to use the standard Unity libraries. Not sure how many extras we'll need... (Maybe some for textures/lightining? Because we're not using Unity share/colab it's probably best to not be dependant upon tons of extra libraries) 
+What external file formats might you use (for graphics, audio, storytelling, etc)?
+* .fbx for models (although this can be adjusted as needed, I just know blender exports fbx's pretty cleanly) - Jake
+* .wav for audio (I have some pretty nice audio software where I can create/add/covert any sounds we need) -Jake 
+* .png for textures
+* Beyond that, I'm not sure we'll be using anything super out of the ordinary for files... 
+
+Who will be assigned each specific task?
+* Basic Asset Design, Basic Texutring, Making sure models get imported to Unity - Jake 
+
+---
+
 ## 11/4/19
 
 ### Character Discussion
