@@ -1,3 +1,13 @@
+## 11/20/19
+Today, we continued to work on CoffeeGhost and worked to merge all of our separate changes onto a single build. 
+We currently have a basic customer script that deals with tables, a basic ghost asset with a coffee, a movement script, and a basic map with basic collision. So far, we're pretty on schedule, however, we need to continue working dillegently over break
+
+Big Tasks for next time: 
+* Build the rest of the assets, add textures and shaders - Jake
+* Figure out how to control the ghost with a controller
+* Make the script work with multiple customers
+* Add tables to the layout 
+
 ## 11/13/19
 
 Attempted to deal with the crazy github repo and pull requests. Unsuccessful...
