@@ -4,9 +4,12 @@ We currently have a basic customer script that deals with tables, a basic ghost 
 
 Big Tasks for next time: 
 * Build the rest of the assets, add textures and shaders - Jake
-* Figure out how to control the ghost with a controller
-* Make the script work with multiple customers
-* Add tables to the layout 
+* Build a script to pick up, put down, and DROP the coffee - Jake 
+  * Also can't forget to actually add the coffee to the cup - 
+* Figure out how to control the ghost with a controller - Colin
+* Make the script work with multiple customers, and have them walk up to the counter - Hai 
+* Add tables to the layout - Jake 
+* Add UI objects for different types of coffee - Jake 
 
 ## 11/13/19
 
