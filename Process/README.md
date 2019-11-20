@@ -3,13 +3,13 @@ Today, we continued to work on CoffeeGhost and worked to merge all of our separa
 We currently have a basic customer script that deals with tables, a basic ghost asset with a coffee, a movement script, and a basic map with basic collision. So far, we're pretty on schedule, however, we need to continue working dillegently over break
 
 Big Tasks for next time: 
+* Add tables to the layout - Jake 
 * Build the rest of the assets, add textures and shaders - Jake
 * Build a script to pick up, put down, and DROP the coffee - Jake 
-  * Also can't forget to actually add the coffee to the cup - 
+  * Also can't forget to actually add the coffee to the cup - (probably Jake) 
 * Figure out how to control the ghost with a controller - Colin
 * Make the script work with multiple customers, and have them walk up to the counter - Hai 
-* Add tables to the layout - Jake 
-* Add UI objects for different types of coffee - Jake 
+* Grind Beans, Boil water scripts - Ethan 
 
 ## 11/13/19
 
