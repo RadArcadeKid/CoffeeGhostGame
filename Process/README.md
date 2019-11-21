@@ -1,15 +1,38 @@
 ## 11/20/19
-Today, we continued to work on CoffeeGhost and worked to merge all of our separate changes onto a single build. 
-We currently have a basic customer script that deals with tables, a basic ghost asset with a coffee, a movement script, and a basic map with basic collision. So far, we're pretty on schedule, however, we need to continue working dillegently over break
+#### Abstract: 
+After attempting to resolve our 4 Git Branches and some merge conflicts, we decided that moving forward, it would be best to work on a single master repo, and just be consciousness and communicative of who is pushing/pulling to the master branch at any given time. Should we have merge conflicts, we'll deal with them on a case by case basis. The important thing is that we're all going to *finally* be working on a single build of the game so we can actually make some forward progress.
 
-Big Tasks for next time: 
-* Add tables to the layout - Jake 
+#### What we've accomplished as of today: 
+* basic Ghost asset created and imported into Unity, fixed temporary shader 
+* coffee + plate Assets + Textures imported to Unity
+* wrote a script to control the x/y movement of the player object
+* Basic movement+ collision through walls (still in progress)
+* Basic customer movement scripts 
+
+#### What we did during the work day today 
+Luckily, we worked on our various portions of this separately on our own branches/systems, so we merged all of our various scripts and peices together on the master. 
+Today, we continued to work on CoffeeGhost and worked to merge all of our separate changes onto a single build. 
+We currently have a basic customer script that deals with tables, a basic ghost asset with a coffee, a movement script, and a basic map with basic collision. We also did a lot of planning in terms of the scope of how the collisions, customer logic, and coffee logic will work. (Seperate scripts still need to be written) 
+
+
+**Big Tasks for next time:**
+* Add tables to the layout so Hai can put her scripts- Jake 
+* Make basic customer assets - Jake 
 * Build the rest of the assets, add textures and shaders - Jake
 * Build a script to pick up, put down, and DROP the coffee - Jake 
-  * Also can't forget to actually add the coffee to the cup - (probably Jake) 
-* Figure out how to control the ghost with a controller - Colin
-* Make the script work with multiple customers, and have them walk up to the counter - Hai 
-* Grind Beans, Boil water scripts - Ethan 
+* Custom shader for the ghost to modify color - Jake  (yes, I know it's a lot, but I have some time this weekend to finish all the assets! And a lot of these are pretty easy to make!) 
+* Figure out how to control the ghost with a controller, fix player movement script - Colin
+* Make the script work with multiple customers, and have them walk up to the counter, recieve an order, and then walk to a table - Hai 
+* Grind Beans, Boil water scripts, more kitchen mechanics - Ethan 
+
+
+* As a stretch goal, I'd like to have some UI/text bubble elements for orders completed soon as well. This will make scripting the customers and dealing with orders much easier. 
+
+#### Over the break: 
+We plan on staying in touch and working on our various tasks throughout the days. We will keep each other updated on when/who is pushing/pulling to the Master branch so we don't worry about merge conflicts. We will also meet up (over Discord screenshare) at some point over the break if we need to. This will probably important for scoping/planning how certain scripts/pieces are going to fit together.
+
+
+We'll keep updating this repo as we make changes. Stay tuned!! 
 
 ## 11/13/19
 
