@@ -1,4 +1,4 @@
--- ***MAKE SURE YOU PULL BEFORE YOU MAKE ANY CHANGES AND PUSH TO THIS REPO***
+-- ***MAKE SURE YOU PULL BEFORE YOU MAKE ANY CHANGES AND/OR PUSH TO MASTER*** -- 
 
 # Coffee Ghost
 This is the game dev repo for our coffee ghost delivery game! 
