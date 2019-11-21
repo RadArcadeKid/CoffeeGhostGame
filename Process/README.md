@@ -1,6 +1,6 @@
 ## 11/20/19
 #### Github/Workflow update: 
-After attempting to fix our 4 Git Branches and resolve some merge conflicts because of stupid config file errors, we decided that moving forward, it would be best to work on a single master repo, and just be consciousness and communicative of who is pushing/pulling to the master branch at any given time. Should we have merge conflicts, we'll deal with them on a case by case basis. The important thing is that we're all going to *finally* be working on a single build of the game so we can actually make some forward progress.
+After attempting to fix our 4 Git Branches and resolve some merge conflicts because of stupid config file errors, we decided that moving forward, it would be best to work on a single master repo, and just be consciousness and communicative of who is pushing/pulling to the master branch at any given time. Should we have merge conflicts, we'll deal with them on a case by case basis. The important thing is that we're all going to *finally* be working on a single build of the game so we can actually make some forward progress. Luckily, we've all worked on our various portions of this separately on our own branches/systems, so we made progress. 
 
 #### What we've accomplished as of today: 
 * basic Ghost asset created and imported into Unity, fixed temporary shader 
@@ -10,8 +10,7 @@ After attempting to fix our 4 Git Branches and resolve some merge conflicts beca
 * Basic customer movement scripts 
 
 #### What we did during the work day today 
-Luckily, we worked on our various portions of this separately on our own branches/systems, so we merged all of our various scripts and peices together on the master. 
-Today, we continued to work on CoffeeGhost and worked to merge all of our separate changes onto a single build. 
+Today, we continued to work on CoffeeGhost and worked to merge all of our separate changes onto a single build (*finally!*). 
 We currently have a basic customer script that deals with tables, a basic ghost asset with a coffee, a movement script, and a basic map with basic collision. We also did a lot of planning in terms of the scope of how the collisions, customer logic, and coffee logic will work. (Seperate scripts still need to be written) 
 
 
