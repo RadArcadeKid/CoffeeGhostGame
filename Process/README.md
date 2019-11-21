@@ -1,6 +1,6 @@
 ## 11/20/19
 #### Github/Workflow update: 
-After attempting to resolve our 4 Git Branches and some merge conflicts, we decided that moving forward, it would be best to work on a single master repo, and just be consciousness and communicative of who is pushing/pulling to the master branch at any given time. Should we have merge conflicts, we'll deal with them on a case by case basis. The important thing is that we're all going to *finally* be working on a single build of the game so we can actually make some forward progress.
+After attempting to fix our 4 Git Branches and resolve some merge conflicts because of stupid config file errors, we decided that moving forward, it would be best to work on a single master repo, and just be consciousness and communicative of who is pushing/pulling to the master branch at any given time. Should we have merge conflicts, we'll deal with them on a case by case basis. The important thing is that we're all going to *finally* be working on a single build of the game so we can actually make some forward progress.
 
 #### What we've accomplished as of today: 
 * basic Ghost asset created and imported into Unity, fixed temporary shader 
