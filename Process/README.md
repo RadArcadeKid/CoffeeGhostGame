@@ -14,6 +14,7 @@ Today, we continued to work on CoffeeGhost and worked to merge all of our separa
 We currently have a basic customer script that deals with tables, a basic ghost asset with a coffee, a movement script, and a basic map with basic collision. We also did a lot of planning in terms of the scope of how the collisions, customer logic, and coffee logic will work. (Seperate scripts still need to be written) 
 
 
+#### Where we're headed 
 --Big Tasks for next time:
 * Add tables to the layout so Hai can put her scripts- Jake 
 * Make basic customer assets - Jake 
