@@ -1,5 +1,5 @@
 ## 11/20/19
-#### Abstract: 
+#### Github/Workflow update: 
 After attempting to resolve our 4 Git Branches and some merge conflicts, we decided that moving forward, it would be best to work on a single master repo, and just be consciousness and communicative of who is pushing/pulling to the master branch at any given time. Should we have merge conflicts, we'll deal with them on a case by case basis. The important thing is that we're all going to *finally* be working on a single build of the game so we can actually make some forward progress.
 
 #### What we've accomplished as of today: 
@@ -15,7 +15,7 @@ Today, we continued to work on CoffeeGhost and worked to merge all of our separa
 We currently have a basic customer script that deals with tables, a basic ghost asset with a coffee, a movement script, and a basic map with basic collision. We also did a lot of planning in terms of the scope of how the collisions, customer logic, and coffee logic will work. (Seperate scripts still need to be written) 
 
 
-**Big Tasks for next time:**
+--Big Tasks for next time:
 * Add tables to the layout so Hai can put her scripts- Jake 
 * Make basic customer assets - Jake 
 * Build the rest of the assets, add textures and shaders - Jake
