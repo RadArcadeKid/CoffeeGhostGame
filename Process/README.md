@@ -6,8 +6,8 @@ After attempting to fix our 4 Git Branches and resolve some merge conflicts beca
 * basic Ghost asset created and imported into Unity, fixed temporary shader 
 * coffee + plate Assets + Textures imported to Unity
 * wrote a script to control the x/y movement of the player object
-* Basic movement+ collision through walls (still in progress)
-* Basic customer movement scripts 
+* basic movement+ collision through walls (still in progress)
+* basic customer movement scripts (customers move to spawned objects) 
 
 #### What we did during the work day today:
 Today, we continued to work on CoffeeGhost and worked to merge all of our separate changes onto a single build (*finally!*). 
