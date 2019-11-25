@@ -44,7 +44,8 @@
     <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
-  <ItemGroup>     <Compile Include="Assets\Scripts\Player.cs" />
+  <ItemGroup>     <Compile Include="Assets\Scripts\PickupCoffee.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
      <None Include="Assets\Scripts\nothing.txt" />
      <None Include="Assets\Models\Textures\not_a_texturwe.txt" />
      <None Include="Assets\Models\Materials\not_a_material1.txt" />
