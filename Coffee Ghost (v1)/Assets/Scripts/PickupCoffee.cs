@@ -7,9 +7,9 @@ public class PickupCoffee : MonoBehaviour
     public Transform dest; //destination for where the coffee will go once picked up (can be changed depending on ghost?) 
     private bool isHolding = false; //global variable for determining if the player is holding the coffee 
 
-    private bool isTouching = false; //should be used to determine whether the coffee is touching any other object 
-
     private bool isValidsurface = false;  //should be used to determine whether the object is on a valid surface or not (e.g. on a counter or not)
+
+    private bool isWithinRange = false; 
 
     public AudioSource cup_spill_src;  
     private AudioSource sound_clink_src;
@@ -30,23 +30,46 @@ public class PickupCoffee : MonoBehaviour
 
     void Update()
     {
-        //TODO: update this so the player can only grab if the coffee is within range 
-        if( Input.GetKeyDown(KeyCode.E)){
+        if(Input.GetKeyDown(KeyCode.E)){
             if(isHolding == false){ //if ghost isn't already holding the coffee...
-                pickup(); 
-                Debug.Log("picked up coffee"); 
+                if(isWithinRange == true){ //if the ghost is within range 
+                        pickup(); 
+                        Debug.Log("picked up coffee"); 
+                }
             }
             else{ //if the ghost IS holding the coffee
                 drop();
             }
         }
-
     }
 
-    private void OnTriggerEnter(Collider other) //once the cup touches a wall/table/etc, drop it!
+
+    private void OnTriggerEnter(Collider other) 
     {
-        if(isValidsurface == false){
-            drop(); 
+        if(other.gameObject.tag == "Player"){ //if player is close to coffee
+            isWithinRange = true;
+            Debug.Log("i'm in");  
+        }
+        else if(other.gameObject.tag == "table" || other.gameObject.tag == "counter"){
+            isValidsurface = true; 
+            Debug.Log("isValisurface = true");
+        }
+        else{
+            if(isValidsurface == false){
+                drop(); //once the cup touches a wall/table/etc, drop it!
+            }
+        }
+    }
+
+    private void OnTriggerExit(Collider other){
+        if(other.gameObject.tag == "Player"){
+            isWithinRange = false;
+            Debug.Log("i'm out");
+            isValidsurface = false; 
+        }
+        if(other.gameObject.tag == "table" || other.gameObject.tag == "counter"){
+            isValidsurface = false; 
+            Debug.Log("no longer on valid surface");
         }
     }
 
@@ -55,6 +78,7 @@ public class PickupCoffee : MonoBehaviour
         sound_clink_src.Play(); 
         GetComponent<Rigidbody>().useGravity = false; //turn off the gravity so the coffee won't fall 
         GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation; 
+        GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionY; 
 
 
         this.transform.position = dest.position;  
@@ -66,7 +90,7 @@ public class PickupCoffee : MonoBehaviour
         isHolding = false; //the player is no longer holding the thing 
 
         this.transform.parent = null; //DE-parent the object 
-        GetComponent<Rigidbody>().useGravity = true; //turn gravity back on so that coffeeObj falls
+        GetComponent<Rigidbody>().useGravity = true; //turn gravity back on so that coffeeObj falls normally 
         GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
 
         if(isValidsurface == false){  
@@ -84,13 +108,16 @@ public class PickupCoffee : MonoBehaviour
                 cup_chld.AddComponent<Rigidbody>();
 
         }
+        else{
+            sound_clink_src.Play(); 
+        }
 
     } 
 
 
     IEnumerator SpillCoroutine(GameObject cup_chld)
     {
-        yield return new WaitForSeconds(0.60f); //wait for a certain amount of seconds
+        yield return new WaitForSeconds(0.55f); //wait for a certain amount of seconds
 
         float x_spill = cup_chld.transform.position.x; //get the position of the cup 
         float z_spill = cup_chld.transform.position.z; 

@@ -31,5 +31,7 @@ public class Player : MonoBehaviour
 
         transform.Translate(movement * speed * Time.deltaTime, Space.World);
     }
+
+    //TODO: Make it so the ghosts' arms only move when they're holding coffee
 }
 
