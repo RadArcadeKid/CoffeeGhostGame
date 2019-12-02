@@ -52,8 +52,11 @@ public class PickupCoffee : MonoBehaviour
     {
         if(other.gameObject.tag == "Player"){ //if player is close to coffee
             isWithinRange = true;
-            
+
+
+            //todo: fix this so that misty can grab coffee too!! 
             this_player = other.gameObject; //set the player equal to the gameobject (player) that just collided 
+            Debug.Log(this_player.name);
         }
         if(other.gameObject.tag == "table" || other.gameObject.tag == "counter" || other.gameObject.tag == "machine"){
             isValidsurface = true; 
@@ -86,9 +89,11 @@ public class PickupCoffee : MonoBehaviour
         sound_clink_src.Play(); 
         this.GetComponent<Rigidbody>().useGravity = false; //turn off the gravity so the coffee won't fall 
         this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation; 
-        this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition; 
+        //this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition; 
 
-        this.transform.position = dest.position;  
+        this.transform.position = dest.position;  //update dest position!!! 
+
+
         this.transform.parent = GameObject.Find("holdObject").transform; //transform to holdObject
         isHolding = true;     
     }
