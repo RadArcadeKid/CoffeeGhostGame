@@ -8,8 +8,6 @@ public class PickupCoffee : MonoBehaviour
     //private Vector3 dest; 
     private Transform dest; 
 
-    //TODO: FIX THIS STUPID DESTINATION BUG!!! 
-
     private bool isHolding = false; //global variable for determining if the player is holding the coffee 
 
     private bool isValidsurface = false;  //should be used to determine whether the object is on a valid surface or not (e.g. on a counter or not)
@@ -27,6 +25,8 @@ public class PickupCoffee : MonoBehaviour
 
     private GameObject this_player; 
 
+    public KeyCode pickupKey; 
+
     Collider this_collider;
 
     void Start(){
@@ -39,7 +39,7 @@ public class PickupCoffee : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E)){
+        if(Input.GetKeyDown(pickupKey)){
             if(isHolding == false){ //if ghost isn't already holding the coffee...
                 if(isWithinRange == true){ //if the ghost is within range 
                         pickup(); 
