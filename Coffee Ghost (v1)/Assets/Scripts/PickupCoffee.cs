@@ -19,6 +19,8 @@ public class PickupCoffee : MonoBehaviour
     private GameObject plate_chld;   
     private GameObject cup_chld;
 
+    private GameObject this_player; 
+
     Collider this_collider;
 
     void Start(){
@@ -34,7 +36,7 @@ public class PickupCoffee : MonoBehaviour
             if(isHolding == false){ //if ghost isn't already holding the coffee...
                 if(isWithinRange == true){ //if the ghost is within range 
                         pickup(); 
-                        Debug.Log("picked up coffee"); 
+                       // Debug.Log("picked up coffee"); 
                 }
             }
             else{ //if the ghost IS holding the coffee
@@ -48,11 +50,12 @@ public class PickupCoffee : MonoBehaviour
     {
         if(other.gameObject.tag == "Player"){ //if player is close to coffee
             isWithinRange = true;
-            Debug.Log("i'm in");  
+            
+            this_player = other.gameObject; //set the player equal to the gameobject (player) that just collided 
         }
-        else if(other.gameObject.tag == "table" || other.gameObject.tag == "counter"){
+        if(other.gameObject.tag == "table" || other.gameObject.tag == "counter"){
             isValidsurface = true; 
-            Debug.Log("isValisurface = true");
+            //Debug.Log("isValisurface = true");
         }
         else{
             if(isValidsurface == false){
@@ -62,9 +65,10 @@ public class PickupCoffee : MonoBehaviour
     }
 
     private void OnTriggerExit(Collider other){
+
         if(other.gameObject.tag == "Player"){
             isWithinRange = false;
-            Debug.Log("i'm out");
+            this_player = null;  //reset the player object to null so that the next player can pick it up 
             isValidsurface = false; 
         }
         if(other.gameObject.tag == "table" || other.gameObject.tag == "counter"){
@@ -75,10 +79,14 @@ public class PickupCoffee : MonoBehaviour
 
     void pickup(){
 
+        MoveHands hand_script = this_player.GetComponent(typeof(MoveHands)) as MoveHands; //get the script for the current player grabbing 
+        hand_script.SetPickupHands(); //set the pickup hands so the player is picking the thing up  
+
         sound_clink_src.Play(); 
-        GetComponent<Rigidbody>().useGravity = false; //turn off the gravity so the coffee won't fall 
-        GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation; 
-        GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionY; 
+        this.GetComponent<Rigidbody>().useGravity = false; //turn off the gravity so the coffee won't fall 
+        this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation; 
+        this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition; 
+        LateUpdate(); 
 
 
         this.transform.position = dest.position;  
@@ -87,11 +95,15 @@ public class PickupCoffee : MonoBehaviour
     }
 
     void drop(){
+        MoveHands hand_script = this_player.GetComponent(typeof(MoveHands)) as MoveHands; //get the script for the current player grabbing 
+        hand_script.SetDefaultHands(); 
+
         isHolding = false; //the player is no longer holding the thing 
 
         this.transform.parent = null; //DE-parent the object 
-        GetComponent<Rigidbody>().useGravity = true; //turn gravity back on so that coffeeObj falls normally 
-        GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+        this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+        this.GetComponent<Rigidbody>().useGravity = true; //turn gravity back on so that coffeeObj falls normally 
+
 
         if(isValidsurface == false){  
                 this_collider.enabled = !this_collider.enabled; //disable the collider so it won't call the drop method again   
@@ -132,4 +144,8 @@ public class PickupCoffee : MonoBehaviour
 
     }
 
+     protected void LateUpdate()
+    {
+     transform.localEulerAngles = new Vector3(0, 0, transform.localEulerAngles.z);
+    }
 }
