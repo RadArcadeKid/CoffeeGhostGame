@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class PickupCoffee : MonoBehaviour
 {
-    public Transform dest; //destination for where the coffee will go once picked up (can be changed depending on ghost?) 
+    //public Transform dest; //destination for where the coffee will go once picked up (can be changed depending on ghost?) 
     //private Vector3 dest; 
+    private Transform dest; 
+
     //TODO: FIX THIS STUPID DESTINATION BUG!!! 
 
     private bool isHolding = false; //global variable for determining if the player is holding the coffee 
@@ -40,7 +42,6 @@ public class PickupCoffee : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.E)){
             if(isHolding == false){ //if ghost isn't already holding the coffee...
                 if(isWithinRange == true){ //if the ghost is within range 
-                        //dest = this_player.transform.Find("holdObject").position; //set the destination to the player's holdobj
                         pickup(); 
                 }
             }
@@ -55,9 +56,15 @@ public class PickupCoffee : MonoBehaviour
     {
         if(other.gameObject.tag == "Player"){ //if player is close to coffee
             isWithinRange = true;
-
             this_player = other.gameObject; //set the player equal to the gameobject (player) that just collided 
-            Debug.Log(this_player.name);
+            if(other.gameObject.name == "Blue"){
+                dest = this_player.transform.Find("holdObject"); //set the destination to the player's holdobj
+            }
+            if(other.gameObject.name == "misty"){
+                dest = this_player.transform.Find("holdObject_m"); 
+            }
+
+            //Debug.Log(this_player.name);
         }
         if(other.gameObject.tag == "table" || other.gameObject.tag == "counter" || other.gameObject.tag == "machine"){
             isValidsurface = true; 
@@ -78,7 +85,11 @@ public class PickupCoffee : MonoBehaviour
         }
         if(other.gameObject.tag == "table" || other.gameObject.tag == "counter" || other.gameObject.tag == "machine"){
             isValidsurface = false; 
-            Debug.Log("no longer on valid surface");
+            //Debug.Log("no longer on valid surface");
+        }
+
+        if(isHolding == false){
+            dest = null; //reset destination after leaving AND when they're not holding it, so that the coffee's destination can be set elsewhere 
         }
     }
 
@@ -109,9 +120,10 @@ public class PickupCoffee : MonoBehaviour
         this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
         this.GetComponent<Rigidbody>().useGravity = true; //turn gravity back on so that coffeeObj falls normally 
 
-        if(isValidsurface == false){   //dropping/colliding with non-valid object 
+        if(isValidsurface == false){   //dropping/colliding with non-valid object (spilling and dropping the coffee)
+
                 this_collider.enabled = !this_collider.enabled; //disable the collider so it won't call the drop method again   
-                cup_spill_src.Play();  
+                cup_spill_src.Play();  //play the sound of a spill 
 
                 //de-parent the children from the cup 
                 plate_chld.transform.parent = null; 
@@ -124,12 +136,11 @@ public class PickupCoffee : MonoBehaviour
                 cup_chld.AddComponent<Rigidbody>();
 
         }
-        else{ //droping on a valid object 
+        else{ //droping on a valid object (won't spill the coffee)
             sound_clink_src.Play(); 
             this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX; 
             this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionZ; 
         }
-        //dest = Vector3.zero; 
     } 
 
 

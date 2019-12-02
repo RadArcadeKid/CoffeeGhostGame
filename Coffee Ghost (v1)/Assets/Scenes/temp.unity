@@ -3836,7 +3836,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38ee38640caf830449ca3fb1d553adf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dest: {fileID: 691665486}
   cup_spill_src: {fileID: 1165601028}
   spill_prefab: {fileID: 4862171851658868767, guid: 3cce91c37e912e64589c45ef8e4c909a,
     type: 3}
