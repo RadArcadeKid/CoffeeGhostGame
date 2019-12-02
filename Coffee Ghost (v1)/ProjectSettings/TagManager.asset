@@ -8,6 +8,7 @@ TagManager:
   - coffee
   - counter
   - machine
+  - customer
   layers:
   - Default
   - TransparentFX
