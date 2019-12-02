@@ -5,6 +5,9 @@ using UnityEngine;
 public class PickupCoffee : MonoBehaviour
 {
     public Transform dest; //destination for where the coffee will go once picked up (can be changed depending on ghost?) 
+    //private Vector3 dest; 
+    //TODO: FIX THIS STUPID DESTINATION BUG!!! 
+
     private bool isHolding = false; //global variable for determining if the player is holding the coffee 
 
     private bool isValidsurface = false;  //should be used to determine whether the object is on a valid surface or not (e.g. on a counter or not)
@@ -37,10 +40,8 @@ public class PickupCoffee : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.E)){
             if(isHolding == false){ //if ghost isn't already holding the coffee...
                 if(isWithinRange == true){ //if the ghost is within range 
-                        //dest = this_player.transform.Find("holdObject"); //set the destination to the player's holdobj 
-                        Debug.Log(dest.position);
+                        //dest = this_player.transform.Find("holdObject").position; //set the destination to the player's holdobj
                         pickup(); 
-                       // Debug.Log("picked up coffee"); 
                 }
             }
             else{ //if the ghost IS holding the coffee
@@ -92,7 +93,7 @@ public class PickupCoffee : MonoBehaviour
         this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition; 
 
         this.transform.position = dest.position;  //update dest position!!! 
-
+        //this.transform.position = dest;  //update the position!!! 
 
         this.transform.parent = GameObject.Find("holdObject").transform; //transform to holdObject
         isHolding = true;     
@@ -128,7 +129,7 @@ public class PickupCoffee : MonoBehaviour
             this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX; 
             this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionZ; 
         }
-        //dest = null; 
+        //dest = Vector3.zero; 
     } 
 
 
