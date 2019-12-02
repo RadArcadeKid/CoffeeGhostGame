@@ -2939,21 +2939,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: coffee_machine
       objectReference: {fileID: 0}
-    - target: {fileID: -6446412644166372444, guid: a647459c472aeba4ea979b201e7fc969,
+    - target: {fileID: -2732987401788221525, guid: a647459c472aeba4ea979b201e7fc969,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 08fb99d7abc1dba4794566910a8aac37, type: 2}
-    - target: {fileID: -6387768035205211796, guid: a647459c472aeba4ea979b201e7fc969,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 987793f5e5e84ae449d2cd862e22e94c, type: 2}
-    - target: {fileID: -4743148042435455735, guid: a647459c472aeba4ea979b201e7fc969,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 08fb99d7abc1dba4794566910a8aac37, type: 2}
+      propertyPath: m_TagString
+      value: machine
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: a647459c472aeba4ea979b201e7fc969,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3024,16 +3014,26 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: -6446412644166372444, guid: a647459c472aeba4ea979b201e7fc969,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 08fb99d7abc1dba4794566910a8aac37, type: 2}
+    - target: {fileID: -6387768035205211796, guid: a647459c472aeba4ea979b201e7fc969,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 987793f5e5e84ae449d2cd862e22e94c, type: 2}
+    - target: {fileID: -4743148042435455735, guid: a647459c472aeba4ea979b201e7fc969,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 08fb99d7abc1dba4794566910a8aac37, type: 2}
     - target: {fileID: -4024165615309139273, guid: a647459c472aeba4ea979b201e7fc969,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 08fb99d7abc1dba4794566910a8aac37, type: 2}
-    - target: {fileID: -2732987401788221525, guid: a647459c472aeba4ea979b201e7fc969,
-        type: 3}
-      propertyPath: m_TagString
-      value: machine
-      objectReference: {fileID: 0}
     - target: {fileID: -2571220092789005021, guid: a647459c472aeba4ea979b201e7fc969,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4298,7 +4298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2084567699}
   m_Layer: 9
-  m_Name: holdObject
+  m_Name: holdObject_m
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

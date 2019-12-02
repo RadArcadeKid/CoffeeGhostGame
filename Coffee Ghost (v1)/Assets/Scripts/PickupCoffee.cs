@@ -37,6 +37,8 @@ public class PickupCoffee : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.E)){
             if(isHolding == false){ //if ghost isn't already holding the coffee...
                 if(isWithinRange == true){ //if the ghost is within range 
+                        //dest = this_player.transform.Find("holdObject"); //set the destination to the player's holdobj 
+                        Debug.Log(dest.position);
                         pickup(); 
                        // Debug.Log("picked up coffee"); 
                 }
@@ -53,8 +55,6 @@ public class PickupCoffee : MonoBehaviour
         if(other.gameObject.tag == "Player"){ //if player is close to coffee
             isWithinRange = true;
 
-
-            //todo: fix this so that misty can grab coffee too!! 
             this_player = other.gameObject; //set the player equal to the gameobject (player) that just collided 
             Debug.Log(this_player.name);
         }
@@ -89,7 +89,7 @@ public class PickupCoffee : MonoBehaviour
         sound_clink_src.Play(); 
         this.GetComponent<Rigidbody>().useGravity = false; //turn off the gravity so the coffee won't fall 
         this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation; 
-        //this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition; 
+        this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition; 
 
         this.transform.position = dest.position;  //update dest position!!! 
 
@@ -128,7 +128,7 @@ public class PickupCoffee : MonoBehaviour
             this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX; 
             this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionZ; 
         }
-
+        //dest = null; 
     } 
 
 
