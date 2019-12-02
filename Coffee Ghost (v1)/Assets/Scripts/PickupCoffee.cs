@@ -18,6 +18,7 @@ public class PickupCoffee : MonoBehaviour
           
     private GameObject plate_chld;   
     private GameObject cup_chld;
+    private GameObject coffee_chld; 
 
     private GameObject this_player; 
 
@@ -26,6 +27,7 @@ public class PickupCoffee : MonoBehaviour
     void Start(){
         plate_chld = this.transform.GetChild(0).gameObject; //get children of CoffeeObject (plate and cup)
         cup_chld = this.transform.GetChild(1).gameObject; 
+        coffee_chld = this.transform.GetChild(2).gameObject; 
         sound_clink_src = GetComponent<AudioSource>();
         this_collider = GetComponent<Collider>(); 
     }
@@ -53,7 +55,7 @@ public class PickupCoffee : MonoBehaviour
             
             this_player = other.gameObject; //set the player equal to the gameobject (player) that just collided 
         }
-        if(other.gameObject.tag == "table" || other.gameObject.tag == "counter"){
+        if(other.gameObject.tag == "table" || other.gameObject.tag == "counter" || other.gameObject.tag == "machine"){
             isValidsurface = true; 
             //Debug.Log("isValisurface = true");
         }
@@ -69,9 +71,8 @@ public class PickupCoffee : MonoBehaviour
         if(other.gameObject.tag == "Player"){
             isWithinRange = false;
             this_player = null;  //reset the player object to null so that the next player can pick it up 
-            isValidsurface = false; 
         }
-        if(other.gameObject.tag == "table" || other.gameObject.tag == "counter"){
+        if(other.gameObject.tag == "table" || other.gameObject.tag == "counter" || other.gameObject.tag == "machine"){
             isValidsurface = false; 
             Debug.Log("no longer on valid surface");
         }
@@ -86,8 +87,6 @@ public class PickupCoffee : MonoBehaviour
         this.GetComponent<Rigidbody>().useGravity = false; //turn off the gravity so the coffee won't fall 
         this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation; 
         this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition; 
-        LateUpdate(); 
-
 
         this.transform.position = dest.position;  
         this.transform.parent = GameObject.Find("holdObject").transform; //transform to holdObject
@@ -104,8 +103,7 @@ public class PickupCoffee : MonoBehaviour
         this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
         this.GetComponent<Rigidbody>().useGravity = true; //turn gravity back on so that coffeeObj falls normally 
 
-
-        if(isValidsurface == false){  
+        if(isValidsurface == false){   //dropping/colliding with non-valid object 
                 this_collider.enabled = !this_collider.enabled; //disable the collider so it won't call the drop method again   
                 cup_spill_src.Play();  
 
@@ -120,8 +118,10 @@ public class PickupCoffee : MonoBehaviour
                 cup_chld.AddComponent<Rigidbody>();
 
         }
-        else{
+        else{ //droping on a valid object 
             sound_clink_src.Play(); 
+            this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX; 
+            this.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionZ; 
         }
 
     } 
@@ -129,7 +129,7 @@ public class PickupCoffee : MonoBehaviour
 
     IEnumerator SpillCoroutine(GameObject cup_chld)
     {
-        yield return new WaitForSeconds(0.55f); //wait for a certain amount of seconds
+        yield return new WaitForSeconds(0.53f); //wait for a certain amount of seconds
 
         float x_spill = cup_chld.transform.position.x; //get the position of the cup 
         float z_spill = cup_chld.transform.position.z; 
@@ -140,12 +140,7 @@ public class PickupCoffee : MonoBehaviour
         //Vector3 spillPosition = cup_chld.transform.position;  
         Instantiate(spill_prefab, spillPosition, Quaternion.identity);    //create the coffee spill here 
 
-        Destroy(this); //destroy the outer parent object 
-
-    }
-
-     protected void LateUpdate()
-    {
-     transform.localEulerAngles = new Vector3(0, 0, transform.localEulerAngles.z);
+        Destroy(coffee_chld);
+        Destroy(this.gameObject); //destroy the outer parent object 
     }
 }
