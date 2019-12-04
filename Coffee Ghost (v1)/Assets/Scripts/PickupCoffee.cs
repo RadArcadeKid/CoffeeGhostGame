@@ -25,7 +25,8 @@ public class PickupCoffee : MonoBehaviour
 
     private GameObject this_player; 
 
-    public KeyCode pickupKey; 
+    public KeyCode pickupKey;
+    public int joystickNum;
 
     Collider this_collider;
 
@@ -39,7 +40,8 @@ public class PickupCoffee : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(pickupKey)){
+        string joystickString = joystickNum.ToString();
+        if (Input.GetKeyDown(pickupKey) || Input.GetButtonDown("X_P" + joystickString)){
             if(isHolding == false){ //if ghost isn't already holding the coffee...
                 if(isWithinRange == true){ //if the ghost is within range 
                         pickup(); 
@@ -58,9 +60,11 @@ public class PickupCoffee : MonoBehaviour
             isWithinRange = true;
             this_player = other.gameObject; //set the player equal to the gameobject (player) that just collided 
             if(other.gameObject.name == "Blue"){
+                joystickNum = 1;
                 dest = this_player.transform.Find("holdObject"); //set the destination to the player's holdobj
             }
             if(other.gameObject.name == "misty"){
+                joystickNum = 2;
                 dest = this_player.transform.Find("holdObject_m"); 
             }
 
@@ -106,7 +110,7 @@ public class PickupCoffee : MonoBehaviour
         this.transform.position = dest.position;  //update dest position!!! 
         //this.transform.position = dest;  //update the position!!! 
 
-        this.transform.parent = GameObject.Find("holdObject").transform; //transform to holdObject
+        this.transform.parent = dest.transform; //transform to holdObject
         isHolding = true;     
     }
 

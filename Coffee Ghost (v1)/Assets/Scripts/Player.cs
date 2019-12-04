@@ -6,6 +6,8 @@ public class Player : MonoBehaviour
 {
     public float speed = 10.0f;
     public float rotation_speed = 0.15f;  //parameterized this so we can change it later 
+    public int joystickNum;
+    float moveHorizontal, moveVertical;
 
     void Start()
     {
@@ -14,8 +16,20 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical");
+        string joystickString = joystickNum.ToString();
+        if (Input.GetJoystickNames().Length > 0)
+        {
+            moveHorizontal = Input.GetAxis("LeftJoystickX_P" + joystickNum);
+            moveVertical = Input.GetAxis("LeftJoystickY_P" + joystickNum);
+
+        }
+        else
+        {
+            moveHorizontal = Input.GetAxis("Horizontal_P" + joystickNum);
+            moveVertical = Input.GetAxis("Vertical_P" + joystickNum);
+            //Debug.Log("No Controller, Switching Inputs");
+        }
+        Debug.Log("Num joysticks: " + Input.GetJoystickNames().Length);
 
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
 
@@ -28,8 +42,13 @@ public class Player : MonoBehaviour
             transform.rotation = Quaternion.Slerp(transform.rotation, transform.rotation, rotation_speed);
         }
 
-
         transform.Translate(movement * speed * Time.deltaTime, Space.World);
+
+        //player boundary
+        Vector3 clampedPosition = transform.position;
+        clampedPosition.z = Mathf.Clamp(clampedPosition.z, -11.5f, 4.75f);
+        clampedPosition.x = Mathf.Clamp(clampedPosition.x, -10.0f, 14.35f);
+        transform.position = clampedPosition;
     }
 
     //TODO: Make it so the ghosts' arms only move when they're holding coffee

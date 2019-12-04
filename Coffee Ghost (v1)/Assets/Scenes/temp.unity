@@ -361,6 +361,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: table
       objectReference: {fileID: 0}
+    - target: {fileID: 5910758604078301536, guid: bd18feef6dff88448803dd09a16d85e1,
+        type: 3}
+      propertyPath: m_TagString
+      value: table
+      objectReference: {fileID: 0}
     - target: {fileID: -8344971761393747476, guid: bd18feef6dff88448803dd09a16d85e1,
         type: 3}
       propertyPath: m_TagString
@@ -435,11 +440,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 5910758604078301536, guid: bd18feef6dff88448803dd09a16d85e1,
-        type: 3}
-      propertyPath: m_TagString
-      value: table
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd18feef6dff88448803dd09a16d85e1, type: 3}
@@ -2363,6 +2363,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: table
       objectReference: {fileID: 0}
+    - target: {fileID: 5910758604078301536, guid: bd18feef6dff88448803dd09a16d85e1,
+        type: 3}
+      propertyPath: m_TagString
+      value: table
+      objectReference: {fileID: 0}
     - target: {fileID: -8344971761393747476, guid: bd18feef6dff88448803dd09a16d85e1,
         type: 3}
       propertyPath: m_TagString
@@ -2438,11 +2443,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.65
       objectReference: {fileID: 0}
-    - target: {fileID: 5910758604078301536, guid: bd18feef6dff88448803dd09a16d85e1,
-        type: 3}
-      propertyPath: m_TagString
-      value: table
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd18feef6dff88448803dd09a16d85e1, type: 3}
 --- !u!1 &583291681 stripped
@@ -2477,6 +2477,7 @@ GameObject:
   - component: {fileID: 586213729}
   - component: {fileID: 586213728}
   - component: {fileID: 586213727}
+  - component: {fileID: 586213731}
   m_Layer: 9
   m_Name: misty
   m_TagString: Player
@@ -2539,6 +2540,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: -154.71701, z: 0}
+--- !u!114 &586213731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586213726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a68bfd7a0ee62149a97c28681bea2a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  rotation_speed: 0.15
+  joystickNum: 2
 --- !u!1 &603586197 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8344971761393747476, guid: bd18feef6dff88448803dd09a16d85e1,
@@ -3518,6 +3534,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: table
       objectReference: {fileID: 0}
+    - target: {fileID: 5910758604078301536, guid: bd18feef6dff88448803dd09a16d85e1,
+        type: 3}
+      propertyPath: m_TagString
+      value: table
+      objectReference: {fileID: 0}
     - target: {fileID: -8344971761393747476, guid: bd18feef6dff88448803dd09a16d85e1,
         type: 3}
       propertyPath: m_TagString
@@ -3592,11 +3613,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 5910758604078301536, guid: bd18feef6dff88448803dd09a16d85e1,
-        type: 3}
-      propertyPath: m_TagString
-      value: table
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd18feef6dff88448803dd09a16d85e1, type: 3}
@@ -3962,6 +3978,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: table
       objectReference: {fileID: 0}
+    - target: {fileID: 5910758604078301536, guid: bd18feef6dff88448803dd09a16d85e1,
+        type: 3}
+      propertyPath: m_TagString
+      value: table
+      objectReference: {fileID: 0}
     - target: {fileID: -8344971761393747476, guid: bd18feef6dff88448803dd09a16d85e1,
         type: 3}
       propertyPath: m_TagString
@@ -4036,11 +4057,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 5910758604078301536, guid: bd18feef6dff88448803dd09a16d85e1,
-        type: 3}
-      propertyPath: m_TagString
-      value: table
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd18feef6dff88448803dd09a16d85e1, type: 3}
@@ -4951,6 +4967,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: table
       objectReference: {fileID: 0}
+    - target: {fileID: 5910758604078301536, guid: bd18feef6dff88448803dd09a16d85e1,
+        type: 3}
+      propertyPath: m_TagString
+      value: table
+      objectReference: {fileID: 0}
     - target: {fileID: -8344971761393747476, guid: bd18feef6dff88448803dd09a16d85e1,
         type: 3}
       propertyPath: m_TagString
@@ -5026,11 +5047,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.65
       objectReference: {fileID: 0}
-    - target: {fileID: 5910758604078301536, guid: bd18feef6dff88448803dd09a16d85e1,
-        type: 3}
-      propertyPath: m_TagString
-      value: table
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd18feef6dff88448803dd09a16d85e1, type: 3}
 --- !u!1 &1201989677 stripped
@@ -5066,6 +5082,11 @@ PrefabInstance:
       value: table
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: bd18feef6dff88448803dd09a16d85e1,
+        type: 3}
+      propertyPath: m_TagString
+      value: table
+      objectReference: {fileID: 0}
+    - target: {fileID: 5910758604078301536, guid: bd18feef6dff88448803dd09a16d85e1,
         type: 3}
       propertyPath: m_TagString
       value: table
@@ -5145,11 +5166,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.65
       objectReference: {fileID: 0}
-    - target: {fileID: 5910758604078301536, guid: bd18feef6dff88448803dd09a16d85e1,
-        type: 3}
-      propertyPath: m_TagString
-      value: table
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd18feef6dff88448803dd09a16d85e1, type: 3}
 --- !u!1001 &1219236968
@@ -5164,21 +5180,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: coffee_machine
       objectReference: {fileID: 0}
-    - target: {fileID: -6446412644166372444, guid: a647459c472aeba4ea979b201e7fc969,
+    - target: {fileID: -2732987401788221525, guid: a647459c472aeba4ea979b201e7fc969,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 08fb99d7abc1dba4794566910a8aac37, type: 2}
-    - target: {fileID: -6387768035205211796, guid: a647459c472aeba4ea979b201e7fc969,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 987793f5e5e84ae449d2cd862e22e94c, type: 2}
-    - target: {fileID: -4743148042435455735, guid: a647459c472aeba4ea979b201e7fc969,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 08fb99d7abc1dba4794566910a8aac37, type: 2}
+      propertyPath: m_TagString
+      value: machine
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: a647459c472aeba4ea979b201e7fc969,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5249,16 +5255,26 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: -6446412644166372444, guid: a647459c472aeba4ea979b201e7fc969,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 08fb99d7abc1dba4794566910a8aac37, type: 2}
+    - target: {fileID: -6387768035205211796, guid: a647459c472aeba4ea979b201e7fc969,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 987793f5e5e84ae449d2cd862e22e94c, type: 2}
+    - target: {fileID: -4743148042435455735, guid: a647459c472aeba4ea979b201e7fc969,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 08fb99d7abc1dba4794566910a8aac37, type: 2}
     - target: {fileID: -4024165615309139273, guid: a647459c472aeba4ea979b201e7fc969,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 08fb99d7abc1dba4794566910a8aac37, type: 2}
-    - target: {fileID: -2732987401788221525, guid: a647459c472aeba4ea979b201e7fc969,
-        type: 3}
-      propertyPath: m_TagString
-      value: machine
-      objectReference: {fileID: 0}
     - target: {fileID: -2571220092789005021, guid: a647459c472aeba4ea979b201e7fc969,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -6190,6 +6206,36 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: -1303533798577211092, guid: d00d3f0fc50f17d468d9b82a8546253d,
+        type: 3}
+      propertyPath: m_Name
+      value: plate
+      objectReference: {fileID: 0}
+    - target: {fileID: -1303533798577211092, guid: d00d3f0fc50f17d468d9b82a8546253d,
+        type: 3}
+      propertyPath: m_TagString
+      value: coffee
+      objectReference: {fileID: 0}
+    - target: {fileID: -1303533798577211092, guid: d00d3f0fc50f17d468d9b82a8546253d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7584999718167117314, guid: d00d3f0fc50f17d468d9b82a8546253d,
+        type: 3}
+      propertyPath: m_Name
+      value: cup
+      objectReference: {fileID: 0}
+    - target: {fileID: 7584999718167117314, guid: d00d3f0fc50f17d468d9b82a8546253d,
+        type: 3}
+      propertyPath: m_TagString
+      value: coffee
+      objectReference: {fileID: 0}
+    - target: {fileID: 7584999718167117314, guid: d00d3f0fc50f17d468d9b82a8546253d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d00d3f0fc50f17d468d9b82a8546253d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6260,21 +6306,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: -1303533798577211092, guid: d00d3f0fc50f17d468d9b82a8546253d,
-        type: 3}
-      propertyPath: m_Name
-      value: plate
-      objectReference: {fileID: 0}
-    - target: {fileID: -1303533798577211092, guid: d00d3f0fc50f17d468d9b82a8546253d,
-        type: 3}
-      propertyPath: m_TagString
-      value: coffee
-      objectReference: {fileID: 0}
-    - target: {fileID: -1303533798577211092, guid: d00d3f0fc50f17d468d9b82a8546253d,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 4022312092107346632, guid: d00d3f0fc50f17d468d9b82a8546253d,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -6299,21 +6330,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7584999718167117314, guid: d00d3f0fc50f17d468d9b82a8546253d,
-        type: 3}
-      propertyPath: m_Name
-      value: cup
-      objectReference: {fileID: 0}
-    - target: {fileID: 7584999718167117314, guid: d00d3f0fc50f17d468d9b82a8546253d,
-        type: 3}
-      propertyPath: m_TagString
-      value: coffee
-      objectReference: {fileID: 0}
-    - target: {fileID: 7584999718167117314, guid: d00d3f0fc50f17d468d9b82a8546253d,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8300090785655034200, guid: d00d3f0fc50f17d468d9b82a8546253d,
         type: 3}
@@ -6801,6 +6817,7 @@ MonoBehaviour:
   spill_prefab: {fileID: 4862171851658868767, guid: 3cce91c37e912e64589c45ef8e4c909a,
     type: 3}
   pickupKey: 101
+  joystickNum: 0
 --- !u!4 &1674198243 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: d00d3f0fc50f17d468d9b82a8546253d,
@@ -8095,6 +8112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   rotation_speed: 0.15
+  joystickNum: 1
 --- !u!136 &2043837800
 CapsuleCollider:
   m_ObjectHideFlags: 0
