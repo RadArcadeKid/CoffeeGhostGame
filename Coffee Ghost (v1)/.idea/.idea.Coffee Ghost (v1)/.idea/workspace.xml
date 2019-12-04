@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Coffee Ghost (v1)/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Coffee Ghost (v1)/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Coffee Ghost (v1)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Coffee Ghost (v1)/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Customer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coffee Ghost (v1).sln" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee Ghost (v1).sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/APIUpdater/project-dependencies.graph" beforeDir="false" afterPath="$PROJECT_DIR$/Library/APIUpdater/project-dependencies.graph" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/AssetImportState" beforeDir="false" afterPath="$PROJECT_DIR$/Library/AssetImportState" afterDir="false" />
@@ -1781,6 +1782,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Customer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Customer.cs" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1UV8yw5DiHe4sbQDXsb2qljAk8n" />
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
@@ -1826,7 +1834,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575492850726</updated>
-      <workItem from="1575492853988" duration="455000" />
+      <workItem from="1575492853988" duration="507000" />
     </task>
     <servers />
   </component>

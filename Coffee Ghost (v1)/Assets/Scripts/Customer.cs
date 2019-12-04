@@ -189,13 +189,12 @@ public class Customer : MonoBehaviour
             InvokeRepeating("checkCoffee1",0,1);
         }
         Ghost3.transform.position = Vector3.MoveTowards(Ghost3.transform.position, target3.position, step);
-        
+
         if (Vector3.Distance(Ghost3.transform.position, target3.position) < 2.0f)
         {
-            InvokeRepeating("checkCoffee3",0,1);
+            InvokeRepeating("checkCoffee3", 0, 1);
         }
-    }
-        
+
     }
 
     void levelTwo()
