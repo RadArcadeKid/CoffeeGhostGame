@@ -3,37 +3,37 @@
 
 General
 
-File Size Restrictions - N/A 
-File Format Type - mp3
-File Quality Type - Whatever (not specific) 
+- File Size Restrictions - N/A 
+- File Format Type - mp3
+- File Quality Type - Whatever (not specific) 
 
 
 Player Sounds
-Type of Sound f/x 
- - Sounds for dropping/pickup coffee (already made!) 
- - Sounds for possessing machines 
- - Sounds for customers speech (maybe?) 
- - Sounds for grinding/making coffee 
-Device Vibration - Maybe once player interacts with/possesses machines. Granted, this will be the case only if we can get the controllers successfully working 
+- Type of Sound f/x 
+  - Sounds for dropping/pickup coffee (already made!) 
+  - Sounds for possessing machines 
+  - Sounds for customers speech (maybe?) 
+  - Sounds for grinding/making coffee 
+- Device Vibration - Maybe once player interacts with/possesses machines. Granted, this will be the case only if we can get the controllers successfully working 
 
 
 Enemy Sounds
-Type of Sound f/x - We *might* have customer sound effects for speech (similar to Celeste, just little beeps/jiberish talking) 
-Device Vibration - N/A 
+- Type of Sound f/x - We *might* have customer sound effects for speech (similar to Celeste, just little beeps/jiberish talking) 
+- Device Vibration - N/A 
 
 
 Global Elements
-Ambient Music - Probably some Lofi hip hop or chill ambient music 
-Diegetic audio - Sounds for coffee dropping, machines, etc. 
+- Ambient Music - Probably some Lofi hip hop or chill ambient music 
+- Diegetic audio - Sounds for coffee dropping, machines, etc. 
 
 
 Splash Screens and/or Cinematics
-Ambient Music - Probably a cute little spooky menu theme 
-Soundtrack - Probably some Lofi hip hop or chill ambient music 
-Additional sound effects
- - Maybe some ghost possession noises, machines breaking 
-Menus - Some spooky UI 
-Type of Sound f/x - Not quite sure how to answer this one...
+- Ambient Music - Probably a cute little spooky menu theme 
+- Soundtrack - Probably some Lofi hip hop or chill ambient music 
+Additional sound effects
+- Maybe some ghost possession noises, machines breaking 
+- Menus - Some spooky UI 
+- Type of Sound f/x - Not quite sure how to answer this one...non-diagetic sounds? 
 
 
 ## 11/20/19
