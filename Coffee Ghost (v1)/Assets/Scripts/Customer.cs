@@ -190,8 +190,10 @@ public class Customer : MonoBehaviour
         }
         Ghost3.transform.position = Vector3.MoveTowards(Ghost3.transform.position, target3.position, step);
         
-        if (Vector3.Distance(Ghost3.transform.position, target3.position) < 2.0f){
+        if (Vector3.Distance(Ghost3.transform.position, target3.position) < 2.0f)
+        {
             InvokeRepeating("checkCoffee3",0,1);
+        }
     }
         
     }
@@ -200,11 +202,20 @@ public class Customer : MonoBehaviour
     {
         float step =  3.0f * Time.deltaTime; 
         Ghost5.transform.position = Vector3.MoveTowards(Ghost5.transform.position, target5.position, step);
+        if (Vector3.Distance(Ghost5.transform.position, target5.position) < 2.0f)
+        {
+            InvokeRepeating("checkCoffee5",0,1);
+        }
         Ghost4.transform.position = Vector3.MoveTowards(Ghost4.transform.position, target4.position, step);
+        if (Vector3.Distance(Ghost4.transform.position, target4.position) < 2.0f)
+        {
+            InvokeRepeating("checkCoffee4",0,1);
+        }
         Ghost2.transform.position = Vector3.MoveTowards(Ghost2.transform.position, target2.position, step);
-        InvokeRepeating("checkCoffee2",0,1);
-        InvokeRepeating("checkCoffee4",0,1);
-        InvokeRepeating("checkCoffee5",0,1);
+        if (Vector3.Distance(Ghost2.transform.position, target2.position) < 2.0f)
+        {
+            InvokeRepeating("checkCoffee2", 0, 1);
+        }
     }
     
     
