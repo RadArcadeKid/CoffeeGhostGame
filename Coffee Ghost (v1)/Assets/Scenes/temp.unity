@@ -893,6 +893,7 @@ GameObject:
   - component: {fileID: 291922467}
   - component: {fileID: 291922466}
   - component: {fileID: 291922470}
+  - component: {fileID: 291922471}
   m_Layer: 9
   m_Name: cust (1)
   m_TagString: customer
@@ -943,7 +944,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 291922465}
   m_LocalRotation: {x: -0, y: -0.9998377, z: -0, w: -0.018015321}
-  m_LocalPosition: {x: -16.16, y: 1, z: 0.39060146}
+  m_LocalPosition: {x: -16.16, y: 1, z: -4.68}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1942541077}
@@ -971,6 +972,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!136 &291922471
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291922465}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &306628191
 GameObject:
   m_ObjectHideFlags: 0
@@ -3295,6 +3310,7 @@ GameObject:
   - component: {fileID: 721576469}
   - component: {fileID: 721576468}
   - component: {fileID: 721576472}
+  - component: {fileID: 721576473}
   m_Layer: 9
   m_Name: cust (3)
   m_TagString: customer
@@ -3345,7 +3361,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 721576467}
   m_LocalRotation: {x: -0, y: -0.9998377, z: -0, w: -0.018015321}
-  m_LocalPosition: {x: -16.16, y: 1, z: 0.39060146}
+  m_LocalPosition: {x: -16.16, y: 1, z: -8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 496922156}
@@ -3373,6 +3389,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!136 &721576473
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721576467}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &722189956
 GameObject:
   m_ObjectHideFlags: 0
@@ -4142,6 +4172,7 @@ GameObject:
   - component: {fileID: 1005759216}
   - component: {fileID: 1005759215}
   - component: {fileID: 1005759219}
+  - component: {fileID: 1005759220}
   m_Layer: 9
   m_Name: cust (2)
   m_TagString: customer
@@ -4192,7 +4223,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1005759214}
   m_LocalRotation: {x: -0, y: -0.9998377, z: -0, w: -0.018015321}
-  m_LocalPosition: {x: -16.16, y: 1, z: 0.39060146}
+  m_LocalPosition: {x: -16.16, y: 1, z: -6.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1466012673}
@@ -4220,6 +4251,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!136 &1005759220
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005759214}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1021894076
 GameObject:
   m_ObjectHideFlags: 0
@@ -7752,6 +7797,7 @@ GameObject:
   - component: {fileID: 2019291604}
   - component: {fileID: 2019291605}
   - component: {fileID: 2019291608}
+  - component: {fileID: 2019291609}
   m_Layer: 9
   m_Name: cust
   m_TagString: customer
@@ -7802,7 +7848,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2019291603}
   m_LocalRotation: {x: -0, y: -0.9998377, z: -0, w: -0.018015321}
-  m_LocalPosition: {x: -16.16, y: 1, z: 0.39060146}
+  m_LocalPosition: {x: -16.16, y: 1, z: -2.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 18772368}
@@ -7830,6 +7876,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!136 &2019291609
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019291603}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2031246453
 GameObject:
   m_ObjectHideFlags: 0
@@ -8103,6 +8163,7 @@ GameObject:
   - component: {fileID: 2044161146}
   - component: {fileID: 2044161145}
   - component: {fileID: 2044161149}
+  - component: {fileID: 2044161150}
   m_Layer: 9
   m_Name: cust (4)
   m_TagString: customer
@@ -8181,6 +8242,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!136 &2044161150
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044161144}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &2045188627
 PrefabInstance:
   m_ObjectHideFlags: 0
