@@ -1,3 +1,41 @@
+## 12/4/19
+## SOUND DOCUMENT: 
+
+General
+
+File Size Restrictions - N/A 
+File Format Type - mp3
+File Quality Type - Whatever (not specific) 
+
+
+Player Sounds
+Type of Sound f/x 
+ - Sounds for dropping/pickup coffee (already made!) 
+ - Sounds for possessing machines 
+ - Sounds for customers speech (maybe?) 
+ - Sounds for grinding/making coffee 
+Device Vibration - Maybe once player interacts with/possesses machines. Granted, this will be the case only if we can get the controllers successfully working 
+
+
+Enemy Sounds
+Type of Sound f/x - We *might* have customer sound effects for speech (similar to Celeste, just little beeps/jiberish talking) 
+Device Vibration - N/A 
+
+
+Global Elements
+Ambient Music - Probably some Lofi hip hop or chill ambient music 
+Diegetic audio - Sounds for coffee dropping, machines, etc. 
+
+
+Splash Screens and/or Cinematics
+Ambient Music - Probably a cute little spooky menu theme 
+Soundtrack - Probably some Lofi hip hop or chill ambient music 
+Additional sound effects
+ - Maybe some ghost possession noises, machines breaking 
+Menus - Some spooky UI 
+Type of Sound f/x - Not quite sure how to answer this one...
+
+
 ## 11/20/19
 #### Github/Workflow update: 
 After attempting to fix our 4 Git Branches and resolve some merge conflicts because of stupid config file errors, we decided that moving forward, it would be best to work on a single master repo, and just be conscientious and communicative of who is pushing/pulling to the master branch at any given time. Should we have merge conflicts, we'll deal with them on a case by case basis. The important thing is that we're all going to *finally* be working on a single build of the game so we can actually make some forward progress. Luckily, we've all worked on our various portions of this separately on our own branches/systems, so we made progress. 
