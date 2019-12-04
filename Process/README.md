@@ -32,8 +32,9 @@ Splash Screens and/or Cinematics
 - Soundtrack - Probably some Lofi hip hop or chill ambient music 
 Additional sound effects
 - Maybe some ghost possession noises, machines breaking 
-- Menus - Some spooky UI 
-- Type of Sound f/x - Not quite sure how to answer this one...non-diagetic sounds? 
+Menus
+- Type of Sound f/x - Not quite sure how to answer this one...non-diagetic sounds? Little button presses?
+- Music - *Maybe* - only if we can figure it out in time 
 
 
 ## 11/20/19
