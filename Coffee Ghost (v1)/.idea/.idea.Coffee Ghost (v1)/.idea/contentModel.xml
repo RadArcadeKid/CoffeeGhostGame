@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Hai Li\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Hai Li\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Coffee Ghost (v1).799008792.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Hai Li\Desktop\coin\CoffeeGhostGame\Coffee Ghost (v1)" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Models" t="Include">
+          <e p="Materials" t="Include">
+            <e p="not_a_material1.txt" t="Include" />
+          </e>
+          <e p="Textures" t="Include">
+            <e p="not_a_texturwe.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Prefabs" t="Include">
+          <e p="nothing.txt" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="CoffeeCheck.cs" t="Include" />
+          <e p="Customer.cs" t="Include" />
+          <e p="MoveHands.cs" t="Include" />
+          <e p="PickupCoffee.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
+          <e p="popup.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Coffee Ghost (v1).sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

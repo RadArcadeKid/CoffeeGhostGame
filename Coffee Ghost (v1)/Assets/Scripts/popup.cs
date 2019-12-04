@@ -14,7 +14,7 @@ public class popup : MonoBehaviour
     
        void OnTriggerEnter(Collider other)
        {
-           if (other.name == "Player")
+           if (other.name == "Blue")
            {
                TurnOnMessage();
            }
@@ -27,7 +27,7 @@ public class popup : MonoBehaviour
             
        void OnTriggerExit(Collider other)
        {
-           if (other.name == "Player")
+           if (other.name == "Blue")
            {
                TurnOffMessage();
            }
