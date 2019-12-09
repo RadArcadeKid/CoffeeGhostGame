@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 64
+  controlID: 61
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 65
+  controlID: 62
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 66
+  controlID: 63
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -381,10 +381,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 361}
-      m_SelectedIDs: a63b0000
-      m_LastClickedID: 15270
-      m_ExpandedIDs: 6efbffff
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 7c3f0000
+      m_LastClickedID: 16252
+      m_ExpandedIDs: cef6ffff7c3f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -437,16 +437,16 @@ MonoBehaviour:
   m_ShowContextualTools: 0
   m_WindowGUID: 11e1d713ac2e00a47a58944ce595c8c8
   m_Gizmos: 0
-  m_SceneIsLit: 1
+  m_SceneIsLit: 0
   m_SceneLighting: 1
   m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 12.844359, y: -16.779415, z: 8.04916}
+    m_Target: {x: 6.095, y: 1.074, z: -4.7}
     speed: 2
-    m_Value: {x: 12.844359, y: -16.779415, z: 8.04916}
+    m_Value: {x: 23.083492, y: -14.705314, z: 2.8854809}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -457,7 +457,7 @@ MonoBehaviour:
   m_SceneViewState:
     showFog: 1
     showMaterialUpdate: 0
-    showSkybox: 1
+    showSkybox: 0
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
@@ -475,13 +475,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.4182688, y: -0.23569064, z: 0.1133285, w: -0.8698795}
+    m_Target: {x: -0.3530844, y: -0.32548234, z: 0.13253483, w: -0.86709857}
     speed: 2
-    m_Value: {x: -0.41695675, y: -0.23585655, z: 0.11297298, w: -0.8704918}
+    m_Value: {x: -0.35307863, y: -0.32547703, z: 0.13253267, w: -0.8670844}
   m_Size:
-    m_Target: 26.356684
+    m_Target: 1.634853
     speed: 2
-    m_Value: 27.598621
+    m_Value: 30.550644
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -572,11 +572,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Models/Textures
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Models/Textures
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity\Projects\CoffeeGhostGame\CoffeeGhostGame\Coffee Ghost
     (v1)
@@ -584,8 +584,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8a330000
-    m_LastClickedID: 13194
+    m_SelectedIDs: 80300000
+    m_LastClickedID: 12416
     m_ExpandedIDs: 00000000803000003634000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
