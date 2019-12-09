@@ -152,16 +152,22 @@ public class PickupCoffee : MonoBehaviour
     {
         yield return new WaitForSeconds(0.53f); //wait for a certain amount of seconds
 
-        float x_spill = cup_chld.transform.position.x; //get the position of the cup 
-        float z_spill = cup_chld.transform.position.z; 
-        float y_spill = cup_chld.transform.position.y - 0.2f; 
+        CoffeeStatus coffee_status_script = this.GetComponent(typeof(CoffeeStatus)) as CoffeeStatus; //get the coffee status script 
+        if(coffee_status_script.GetStatus() != "empty"){ //if the coffee cup isn't empty...
 
-       Vector3 spillPosition = new Vector3(x_spill, y_spill, z_spill); //change to a vector to determine exactly where to spawn the spill 
+            float x_spill = cup_chld.transform.position.x; //get the position of the cup 
+            float z_spill = cup_chld.transform.position.z; 
+            float y_spill = cup_chld.transform.position.y - 0.2f; 
+            Vector3 spillPosition = new Vector3(x_spill, y_spill, z_spill); //change to a vector to determine exactly where to spawn the spill 
 
-        //Vector3 spillPosition = cup_chld.transform.position;  
-        Instantiate(spill_prefab, spillPosition, Quaternion.identity);    //create the coffee spill here 
+            //Vector3 spillPosition = cup_chld.transform.position;  
 
+            Instantiate(spill_prefab, spillPosition, Quaternion.identity);    //create the coffee spill here 
+        }
+
+
+        //regardless of its empty status or not, we destroy the coffee object inside, and then the collider around it
         Destroy(coffee_chld);
-        Destroy(this.gameObject); //destroy the outer parent object 
+        Destroy(this.gameObject); 
     }
 }
