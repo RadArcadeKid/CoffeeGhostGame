@@ -19,17 +19,17 @@ public class Player : MonoBehaviour
         string joystickString = joystickNum.ToString();
         if (Input.GetJoystickNames().Length > 0)
         {
-            moveHorizontal = Input.GetAxis("LeftJoystickX_P" + joystickNum);
-            moveVertical = Input.GetAxis("LeftJoystickY_P" + joystickNum);
+            moveHorizontal = Input.GetAxis("LeftJoystickX_P" + joystickString);
+            moveVertical = Input.GetAxis("LeftJoystickY_P" + joystickString);
 
         }
         else
         {
-            moveHorizontal = Input.GetAxis("Horizontal_P" + joystickNum);
-            moveVertical = Input.GetAxis("Vertical_P" + joystickNum);
+            moveHorizontal = Input.GetAxis("Horizontal_P" + joystickString);
+            moveVertical = Input.GetAxis("Vertical_P" + joystickString);
             //Debug.Log("No Controller, Switching Inputs");
         }
-        Debug.Log("Num joysticks: " + Input.GetJoystickNames().Length);
+        //Debug.Log("Num joysticks: " + Input.GetJoystickNames().Length);
 
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
 
