@@ -156,7 +156,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1, y: 302}
+  m_AnchoredPosition: {x: 1, y: 1.12}
   m_SizeDelta: {x: 816, y: 390}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &18772369
@@ -1529,7 +1529,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1, y: 302}
+  m_AnchoredPosition: {x: 1, y: 1.1199999}
   m_SizeDelta: {x: 816, y: 390}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &291922465
@@ -1633,7 +1633,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 291922465}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5
   m_Height: 1
   m_Direction: 1
@@ -3999,7 +3999,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1, y: 302}
+  m_AnchoredPosition: {x: 1, y: 1.1199999}
   m_SizeDelta: {x: 816, y: 390}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &525547326
@@ -6177,7 +6177,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 721576467}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5
   m_Height: 1
   m_Direction: 1
@@ -7260,6 +7260,7 @@ GameObject:
   m_Component:
   - component: {fileID: 924691347}
   - component: {fileID: 924691346}
+  - component: {fileID: 924691348}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -7312,6 +7313,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &924691348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924691345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12b0e87599cb247218ba32c2d4c18145, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cust1: 
+  cust2: 
+  cust3: 
+  cust4: 
+  cust5: 
+  index: 0
+  orders: []
+  coffee1: 0
 --- !u!1 &934952080
 GameObject:
   m_ObjectHideFlags: 0
@@ -8118,7 +8139,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 1005759214}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5
   m_Height: 1
   m_Direction: 1
@@ -11161,7 +11182,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1, y: 302}
+  m_AnchoredPosition: {x: 1, y: 1.1199999}
   m_SizeDelta: {x: 816, y: 390}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1479329036
@@ -14332,7 +14353,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1, y: 302}
+  m_AnchoredPosition: {x: 1, y: 1.1199999}
   m_SizeDelta: {x: 816, y: 390}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1942670829
@@ -15041,7 +15062,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 2019291603}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5
   m_Height: 1
   m_Direction: 1
@@ -15408,7 +15429,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 2044161144}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5
   m_Height: 1
   m_Direction: 1
