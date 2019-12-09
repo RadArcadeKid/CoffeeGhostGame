@@ -56,6 +56,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\AssignCoffee.cs" />
      <Compile Include="Assets\Scripts\CoffeeStatus.cs" />
      <Compile Include="Assets\Scripts\Customer.cs" />
      <Compile Include="Assets\Scripts\MoveHands.cs" />

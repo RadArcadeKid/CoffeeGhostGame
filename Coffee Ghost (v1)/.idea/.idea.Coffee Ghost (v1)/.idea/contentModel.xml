@@ -16,6 +16,7 @@
           <e p="nothing.txt" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="AssignCoffee.cs" t="Include" />
           <e p="CoffeeStatus.cs" t="Include" />
           <e p="Customer.cs" t="Include" />
           <e p="MoveHands.cs" t="Include" />
