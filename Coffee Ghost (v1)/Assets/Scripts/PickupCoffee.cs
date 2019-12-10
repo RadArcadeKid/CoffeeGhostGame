@@ -61,10 +61,12 @@ public class PickupCoffee : MonoBehaviour
             this_player = other.gameObject; //set the player equal to the gameobject (player) that just collided 
             if(other.gameObject.name == "Blue"){
                 joystickNum = 1;
+                pickupKey = KeyCode.RightShift;
                 dest = this_player.transform.Find("holdObject"); //set the destination to the player's holdobj
             }
             if(other.gameObject.name == "misty"){
                 joystickNum = 2;
+                pickupKey = KeyCode.E;
                 dest = this_player.transform.Find("holdObject_m"); 
             }
 
