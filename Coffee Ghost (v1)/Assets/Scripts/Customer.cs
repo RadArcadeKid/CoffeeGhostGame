@@ -103,7 +103,7 @@ public class Customer : MonoBehaviour
 
             else
             {
-                Debug.Log(timer);
+                //Debug.Log(timer);
             }
         }
     }
@@ -126,7 +126,7 @@ public class Customer : MonoBehaviour
 
             else
             {
-                Debug.Log(timer);
+               // ////Debug.Log(timer);
             }
         }
     }
@@ -149,7 +149,7 @@ public class Customer : MonoBehaviour
 
             else
             {
-                Debug.Log(timer);
+                ////Debug.Log(timer);
             }
         }
     }
@@ -172,7 +172,7 @@ public class Customer : MonoBehaviour
 
             else
             {
-                Debug.Log(timer);
+                //Debug.Log(timer);
             }
         }
         
