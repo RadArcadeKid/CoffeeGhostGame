@@ -10,7 +10,7 @@ public class ShaderGlowDelta : MonoBehaviour
 
     Renderer renderer;
 
-    public float speedflash = 2f; //adjust how fast the object flashes with this 
+    public float speedflash = 0.3f; //adjust how fast the object flashes with this 
 
     void Start()
     {

@@ -105,7 +105,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7145411770945780615}
   m_LocalRotation: {x: -0.27745265, y: 0.6504, z: 0.6503998, w: 0.2774527}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.027, z: 0}
   m_LocalScale: {x: 26.681698, y: 26.681698, z: 26.681698}
   m_Children: []
   m_Father: {fileID: 5697189752945405599}
@@ -184,6 +184,7 @@ GameObject:
   - component: {fileID: 4447534029755307853}
   - component: {fileID: 750640074428950922}
   - component: {fileID: 750640074428950925}
+  - component: {fileID: 6135849966176831609}
   m_Layer: 8
   m_Name: plate
   m_TagString: Untagged
@@ -260,9 +261,9 @@ MeshCollider:
   m_GameObject: {fileID: 7458565444086086825}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 8314571269056883277, guid: d00d3f0fc50f17d468d9b82a8546253d, type: 3}
 --- !u!82 &750640074428950925
@@ -361,6 +362,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &6135849966176831609
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7458565444086086825}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.015604796, y: 0.016095545, z: 0.00087222125}
+  m_Center: {x: 0.00014178282, y: -0.0000008288661, z: -0.00023662564}
 --- !u!1 &8740117150952889484
 GameObject:
   m_ObjectHideFlags: 0
