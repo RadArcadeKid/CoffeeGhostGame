@@ -59,12 +59,9 @@
      <Compile Include="Assets\Scripts\PickupCoffee.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\popup.cs" />
-     <Compile Include="Assets\Scripts\ShaderGlowDelta.cs" />
-     <Compile Include="Assets\Scripts\SpawnNewCoffeeCup.cs" />
      <None Include="Assets\Models\Textures\not_a_texturwe.txt" />
      <None Include="Assets\Models\Materials\not_a_material1.txt" />
      <None Include="Assets\Prefabs\nothing.txt" />
-     <None Include="Assets\Shaders\Outline_Glow.shader" />
  <Reference Include="Unity.Timeline.Editor">
 <<<<<<< Updated upstream
  <HintPath>D:/Unity/Projects/CoffeeGhostGame/CoffeeGhostGame/Coffee Ghost (v1)/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
