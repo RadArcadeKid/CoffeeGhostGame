@@ -29,19 +29,19 @@ public class AssignCoffee : MonoBehaviour
         
         index = rand.Next(orders.Length);
         cust1 = orders[index];
-        Debug.Log("customer 1 has order " + cust1);
+        //Debug.Log("customer 1 has order " + cust1);
         index = rand.Next(orders.Length);
         cust2 = orders[index];
-        Debug.Log("customer 2 has order " + cust2);
+        //Debug.Log("customer 2 has order " + cust2);
         index = rand.Next(orders.Length);
         cust3 = orders[index];
-        Debug.Log("customer 3 has order " + cust3);
+        //Debug.Log("customer 3 has order " + cust3);
         index = rand.Next(orders.Length);
         cust4 = orders[index];
-        Debug.Log("customer 4 has order " + cust4);
+        //Debug.Log("customer 4 has order " + cust4);
         index = rand.Next(orders.Length);
         cust5 = orders[index];
-        Debug.Log("customer 5 has order " + cust5);
+        //Debug.Log("customer 5 has order " + cust5);
     }
 
     // Update is called once per frame

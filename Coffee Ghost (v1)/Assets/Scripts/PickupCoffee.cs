@@ -10,7 +10,7 @@ public class PickupCoffee : MonoBehaviour
 
     private bool isHolding = false; //global variable for determining if the player is holding the coffee 
 
-    private bool isValidsurface = false;  //should be used to determine whether the object is on a valid surface or not (e.g. on a counter or not)
+    private bool isValidsurface = true;  //should be used to determine whether the object is on a valid surface or not (e.g. on a counter or not)
 
     private bool isWithinRange = false; 
 
