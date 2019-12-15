@@ -18,6 +18,7 @@ public class MachineTrig : MonoBehaviour
     
     bool Blue_active = false;
     bool misty_active = false;
+    bool coffee_Active = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -95,6 +96,10 @@ public class MachineTrig : MonoBehaviour
             }
 
         }
+        if(other.gameObject.tag == "coffee")
+        {
+            coffee_Active = true;
+        }
         
     }
 
@@ -109,6 +114,33 @@ public class MachineTrig : MonoBehaviour
             misty_active = false;
         }
         Debug.Log(other.gameObject.name + " has left!!!");
+
+        if(other.gameObject.tag == "coffee")
+        {
+            coffee_Active = false;
+        }
+    }
+    public void PullTrigger(Collider other)
+    {
+        if(other.gameObject.tag == "Player")
+        {
+            // Debug.Log("HELLO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            if(other.gameObject.name == "Blue")
+            {
+                Blue_active = true;
+                Debug.Log(other.gameObject.name + " has entered!!!");
+            }
+            if(other.gameObject.name == "misty")
+            {
+                misty_active = true;
+                Debug.Log(other.gameObject.name + " has entered!!!");
+            }
+
+        }
+        if(other.gameObject.tag == "coffee")
+        {
+            coffee_Active = true;
+        }
     }
 
 }
