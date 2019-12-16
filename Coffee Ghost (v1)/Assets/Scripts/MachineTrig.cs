@@ -49,7 +49,7 @@ public class MachineTrig : MonoBehaviour
             Debug.Log("Can't fix, machine is operable");
         }
         // Check if misty is in position
-        if(misty_active != false && durab_script.operable)
+        if(misty_active != false && durab_script.operable && coffee_Active != false)
         {
             // Trigger Floating text
             if(FloatingTextPrefab != null)
