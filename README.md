@@ -9,3 +9,4 @@ This game consists of Co-op play where players are ghosts that have the ability 
 
 By Hai Li, Ethan Choe, Jake Henson, Colin Soguero
 
+itch.io page: https://hayu7527.itch.io/coffee-ghost
