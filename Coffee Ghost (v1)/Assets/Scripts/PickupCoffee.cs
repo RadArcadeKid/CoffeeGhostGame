@@ -78,7 +78,10 @@ public class PickupCoffee : MonoBehaviour
         }
         else{
             if(isValidsurface == false){
-                drop(); //once the cup touches a wall/table/etc, drop it!
+                if (other.gameObject.tag != "customer") //makes sure that coffee doesnt spill when it collides with customer
+                {
+                    drop(); //once the cup touches a wall/table/etc, drop it!
+                }
             }
         }
     }
