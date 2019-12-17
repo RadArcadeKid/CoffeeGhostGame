@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+    <e p="C:\Users\Hai Li\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Hai Li\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Coffee Ghost (v1).-1460278351.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Hai Li\Desktop\CoffeeGhostGame\Coffee Ghost (v1)" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Models" t="Include">
@@ -17,8 +19,16 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="AssignCoffee.cs" t="Include" />
+          <e p="assignImage.cs" t="Include" />
+          <e p="childTrigger.cs" t="Include" />
           <e p="CoffeeStatus.cs" t="Include" />
+          <e p="Cooking.cs" t="Include" />
           <e p="Customer.cs" t="Include" />
+          <e p="Durability.cs" t="Include" />
+          <e p="ExitUiScript.cs" t="Include" />
+          <e p="FloatingText.cs" t="Include" />
+          <e p="LoadScene.cs" t="Include" />
+          <e p="MachineTrig.cs" t="Include" />
           <e p="MoveHands.cs" t="Include" />
           <e p="PickupCoffee.cs" t="Include" />
           <e p="Player.cs" t="Include" />
@@ -28,9 +38,7 @@
       <e p="Coffee Ghost (v1).sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
-      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_Coffee Ghost (v1).1948809627.00" t="ExcludeRecursive" />
   </component>
 </project>

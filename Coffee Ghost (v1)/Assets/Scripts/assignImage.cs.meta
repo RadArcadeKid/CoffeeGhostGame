@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ee1185991c227fd4ca8dd185796f2380
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - foam: {fileID: 21300000, guid: c9866d95e7f76984e82ec4545ab24f5d, type: 3}
+  - black: {fileID: 21300000, guid: b147af84a6c86844e9e2d7db381022e1, type: 3}
+  - milk: {fileID: 21300000, guid: 508c298b881d1e645b335b7a09d0dbde, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

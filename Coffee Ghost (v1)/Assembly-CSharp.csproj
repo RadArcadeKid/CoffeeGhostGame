@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AssignCoffee.cs" />
+     <Compile Include="Assets\Scripts\assignImage.cs" />
      <Compile Include="Assets\Scripts\childTrigger.cs" />
      <Compile Include="Assets\Scripts\CoffeeStatus.cs" />
      <Compile Include="Assets\Scripts\Cooking.cs" />

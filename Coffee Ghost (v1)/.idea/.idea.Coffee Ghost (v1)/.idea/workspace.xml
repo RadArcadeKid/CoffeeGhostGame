@@ -16,6 +16,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/popup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoffeeStatus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/assignImage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Customer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.2.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.2.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
@@ -26,6 +27,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Customer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AssignCoffee.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/assignImage.cs" />
       </list>
     </option>
   </component>
@@ -76,6 +78,7 @@
       <updated>1575492850726</updated>
       <workItem from="1575492853988" duration="507000" />
       <workItem from="1575923004035" duration="412000" />
+      <workItem from="1576542350070" duration="3956000" />
     </task>
     <servers />
   </component>
