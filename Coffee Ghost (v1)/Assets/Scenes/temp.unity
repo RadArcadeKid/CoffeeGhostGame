@@ -120,6 +120,25 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &62910419 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1442695219190813461, guid: 9b2b42b11398f495e94ad0775c303307,
+    type: 3}
+  m_PrefabInstance: {fileID: 8701191241611957661}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &62910420
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62910419}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &79160249
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -262,11 +281,6 @@ PrefabInstance:
       propertyPath: m_TagString
       value: table
       objectReference: {fileID: 0}
-    - target: {fileID: 5910758604078301536, guid: bd18feef6dff88448803dd09a16d85e1,
-        type: 3}
-      propertyPath: m_TagString
-      value: table
-      objectReference: {fileID: 0}
     - target: {fileID: -8344971761393747476, guid: bd18feef6dff88448803dd09a16d85e1,
         type: 3}
       propertyPath: m_TagString
@@ -341,6 +355,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5910758604078301536, guid: bd18feef6dff88448803dd09a16d85e1,
+        type: 3}
+      propertyPath: m_TagString
+      value: table
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd18feef6dff88448803dd09a16d85e1, type: 3}
@@ -8459,11 +8478,6 @@ PrefabInstance:
       propertyPath: m_TagString
       value: table
       objectReference: {fileID: 0}
-    - target: {fileID: 5910758604078301536, guid: bd18feef6dff88448803dd09a16d85e1,
-        type: 3}
-      propertyPath: m_TagString
-      value: table
-      objectReference: {fileID: 0}
     - target: {fileID: -8344971761393747476, guid: bd18feef6dff88448803dd09a16d85e1,
         type: 3}
       propertyPath: m_TagString
@@ -8538,6 +8552,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5910758604078301536, guid: bd18feef6dff88448803dd09a16d85e1,
+        type: 3}
+      propertyPath: m_TagString
+      value: table
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd18feef6dff88448803dd09a16d85e1, type: 3}
@@ -9925,11 +9944,6 @@ PrefabInstance:
       propertyPath: m_TagString
       value: table
       objectReference: {fileID: 0}
-    - target: {fileID: 5910758604078301536, guid: bd18feef6dff88448803dd09a16d85e1,
-        type: 3}
-      propertyPath: m_TagString
-      value: table
-      objectReference: {fileID: 0}
     - target: {fileID: -8344971761393747476, guid: bd18feef6dff88448803dd09a16d85e1,
         type: 3}
       propertyPath: m_TagString
@@ -10004,6 +10018,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5910758604078301536, guid: bd18feef6dff88448803dd09a16d85e1,
+        type: 3}
+      propertyPath: m_TagString
+      value: table
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd18feef6dff88448803dd09a16d85e1, type: 3}
@@ -11046,11 +11065,6 @@ PrefabInstance:
       propertyPath: m_TagString
       value: table
       objectReference: {fileID: 0}
-    - target: {fileID: 5910758604078301536, guid: bd18feef6dff88448803dd09a16d85e1,
-        type: 3}
-      propertyPath: m_TagString
-      value: table
-      objectReference: {fileID: 0}
     - target: {fileID: -8344971761393747476, guid: bd18feef6dff88448803dd09a16d85e1,
         type: 3}
       propertyPath: m_TagString
@@ -11125,6 +11139,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5910758604078301536, guid: bd18feef6dff88448803dd09a16d85e1,
+        type: 3}
+      propertyPath: m_TagString
+      value: table
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd18feef6dff88448803dd09a16d85e1, type: 3}
@@ -12614,11 +12633,6 @@ PrefabInstance:
       propertyPath: m_TagString
       value: table
       objectReference: {fileID: 0}
-    - target: {fileID: 5910758604078301536, guid: bd18feef6dff88448803dd09a16d85e1,
-        type: 3}
-      propertyPath: m_TagString
-      value: table
-      objectReference: {fileID: 0}
     - target: {fileID: -8344971761393747476, guid: bd18feef6dff88448803dd09a16d85e1,
         type: 3}
       propertyPath: m_TagString
@@ -12694,6 +12708,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.65
       objectReference: {fileID: 0}
+    - target: {fileID: 5910758604078301536, guid: bd18feef6dff88448803dd09a16d85e1,
+        type: 3}
+      propertyPath: m_TagString
+      value: table
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd18feef6dff88448803dd09a16d85e1, type: 3}
 --- !u!1 &1201989677 stripped
@@ -12748,11 +12767,6 @@ PrefabInstance:
       value: table1
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: bd18feef6dff88448803dd09a16d85e1,
-        type: 3}
-      propertyPath: m_TagString
-      value: table
-      objectReference: {fileID: 0}
-    - target: {fileID: 5910758604078301536, guid: bd18feef6dff88448803dd09a16d85e1,
         type: 3}
       propertyPath: m_TagString
       value: table
@@ -12831,6 +12845,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5910758604078301536, guid: bd18feef6dff88448803dd09a16d85e1,
+        type: 3}
+      propertyPath: m_TagString
+      value: table
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd18feef6dff88448803dd09a16d85e1, type: 3}
@@ -16500,7 +16519,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 0
 --- !u!54 &1937677703
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16528,8 +16558,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1.8708544, z: 1}
+  m_Center: {x: 0, y: 0.4354271, z: 0}
 --- !u!23 &1937677705
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16607,6 +16637,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FloatingTextPrefab: {fileID: 6325434766269496221, guid: bd36f2889dffb4fa7aae54656b542160,
     type: 3}
+  this_coffee: {fileID: 0}
   cookKey: 99
   repairKey: 114
 --- !u!1 &1941053262
@@ -21546,6 +21577,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Interaction
       objectReference: {fileID: 0}
+    - target: {fileID: 1442695219190813461, guid: 9b2b42b11398f495e94ad0775c303307,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 472978126263307332, guid: 9b2b42b11398f495e94ad0775c303307,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21619,12 +21655,12 @@ PrefabInstance:
     - target: {fileID: 3678499823075593088, guid: 9b2b42b11398f495e94ad0775c303307,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3678499821543134532, guid: 9b2b42b11398f495e94ad0775c303307,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4097150696305283062, guid: 9b2b42b11398f495e94ad0775c303307,
         type: 3}

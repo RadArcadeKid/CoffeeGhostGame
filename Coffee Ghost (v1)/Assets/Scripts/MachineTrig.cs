@@ -6,11 +6,15 @@ public class MachineTrig : MonoBehaviour
 {
     private Durability durab_script;
     private Cooking cook_script;
+
+    private CoffeeStatus coffee_script; 
     // private floatingUIController fl_UIcontr;
     // private floatingUI fl_UI;
 
-
     public GameObject FloatingTextPrefab;
+
+    public GameObject this_coffee; 
+
     // public GameObject UIBarParent;
     public KeyCode cookKey;
     public KeyCode repairKey;
@@ -114,6 +118,12 @@ public class MachineTrig : MonoBehaviour
         }
         if(other.gameObject.tag == "coffee")
         {
+            this_coffee = other.gameObject; //set the player equal to the gameobject (player) that just collided 
+            coffee_script = other.GetComponent<CoffeeStatus>(); //update the coffeescript
+
+            coffee_script.SetBlack();
+            Debug.Log("Coffee entered, parenting game object and setting coffee to black"); 
+
             coffee_Active = true;
         }
         
@@ -133,7 +143,12 @@ public class MachineTrig : MonoBehaviour
 
         if(other.gameObject.tag == "coffee")
         {
+            this_coffee = null;
             coffee_Active = false;
+            coffee_script = null; 
+
+             Debug.Log("coffee is now no longer in the trigger"); 
+
         }
     }
     public void PullTrigger(Collider other)
