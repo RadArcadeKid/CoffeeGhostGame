@@ -63,13 +63,13 @@ public class Durability : MonoBehaviour
 
     public bool DurabilityCheck()
     {
-        if(currDurability < maxDurability)
+        if(currDurability == maxDurability)
         {
-            return false;
+            return true;
         }
         else
         {
-            return true;
+            return false;
         }
     }
     public void DealDamage(float dmgVal)

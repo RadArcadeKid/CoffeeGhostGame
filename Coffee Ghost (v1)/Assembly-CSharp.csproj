@@ -53,6 +53,8 @@
      <Compile Include="Assets\Scripts\Durability.cs" />
      <Compile Include="Assets\Scripts\ExitUiScript.cs" />
      <Compile Include="Assets\Scripts\FloatingText.cs" />
+     <Compile Include="Assets\Scripts\floatingUI.cs" />
+     <Compile Include="Assets\Scripts\floatingUIController.cs" />
      <Compile Include="Assets\Scripts\LoadScene.cs" />
      <Compile Include="Assets\Scripts\MachineTrig.cs" />
      <Compile Include="Assets\Scripts\MoveHands.cs" />

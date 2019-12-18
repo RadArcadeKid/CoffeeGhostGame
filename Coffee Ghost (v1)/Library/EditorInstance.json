@@ -1,4 +1,6 @@
 {
-  "process_id": 5260,
-  "version": "2019.2.9f1"
+	"process_id" : 12534,
+	"version" : "2019.2.9f1",
+	"app_path" : "/Applications/Unity/Hub/Editor/2019.2.9f1/Unity.app",
+	"app_contents_path" : "/Applications/Unity/Hub/Editor/2019.2.9f1/Unity.app/Contents"
 }

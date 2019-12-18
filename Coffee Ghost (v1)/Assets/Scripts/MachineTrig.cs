@@ -6,9 +6,12 @@ public class MachineTrig : MonoBehaviour
 {
     private Durability durab_script;
     private Cooking cook_script;
+    // private floatingUIController fl_UIcontr;
+    // private floatingUI fl_UI;
 
 
     public GameObject FloatingTextPrefab;
+    // public GameObject UIBarParent;
     public KeyCode cookKey;
     public KeyCode repairKey;
     
@@ -19,12 +22,15 @@ public class MachineTrig : MonoBehaviour
     bool Blue_active = false;
     bool misty_active = false;
     bool coffee_Active = false;
+    bool operable = true;
     // Start is called before the first frame update
     void Start()
     {
         this_collider = GetComponent<Collider>();
         durab_script = GetComponent<Durability>();
         cook_script = GetComponent<Cooking>();
+        
+        // floatingUIController.CreateFloatingUI(transform);
         //this_collider.enabled; 
         Debug.Log("Set up collider");
     }
@@ -41,7 +47,7 @@ public class MachineTrig : MonoBehaviour
                 ShowFloatingText();
             }
             // Fix Machine
-            this.durab_script.Fix(repairKey);
+            durab_script.Fix(repairKey);
 
         }
         else if(durab_script.operable == true)
@@ -57,6 +63,7 @@ public class MachineTrig : MonoBehaviour
                 ShowFloatingText();
             }
             // Spawn Coffee
+            // fl_UI.SetDurabSlider(cookKey);
             cook_script.Cook(cookKey);
         }
         else if(durab_script.operable == false)
@@ -77,6 +84,15 @@ public class MachineTrig : MonoBehaviour
         // var go = Instantiate(FloatingTextPrefab, transform.position, Quaternion.identity, transform);
         // go.GetComponent<TextMesh>().text = cookKey.ToString();
     }
+
+    // void ShowFloatingUI()
+    // {
+    //     if(UIBarParent != null)
+    //     {
+    //         var go2 = Instantiate(UIBarParent, transform.position, Quaternion.identity, transform);
+    //         go2.GetComponent<TextMesh>().text = cookKey.ToString();
+    //     }
+    // }
 
     private void OnTriggerEnter(Collider other)
     {
